@@ -1,0 +1,1720 @@
+{
+  "buildDate": "07/17/2023-17:52:33", 
+  "carAAR": [
+    "THV", 
+    "NPD", 
+    "RHx", 
+    "FP3", 
+    "FP4", 
+    "GPx", 
+    "HPx", 
+    "TPO", 
+    "RP3", 
+    "XP3", 
+    "GPD", 
+    "XP4", 
+    "HPD", 
+    "XPV"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "FP3": [
+      "lumber stack", 
+      "lumber", 
+      "material", 
+      "tarp2", 
+      "lumber bh flat", 
+      "machinery"
+    ], 
+    "FP4": [
+      "lumber stack", 
+      "lumber", 
+      "material", 
+      "lumber bh flat", 
+      "tarp", 
+      "machinery"
+    ], 
+    "GPD": [
+      "lumber", 
+      "scrap metal", 
+      "lumber2", 
+      "sand", 
+      "material", 
+      "lumber bh flat", 
+      "machinery"
+    ], 
+    "GPx": [
+      "lumber", 
+      "barrels", 
+      "scrap metal", 
+      "sand", 
+      "lumber2", 
+      "material", 
+      "lumber bh flat", 
+      "machinery"
+    ], 
+    "HPD": [
+      "coal"
+    ], 
+    "HPx": [
+      "coal"
+    ], 
+    "NPD": [], 
+    "RHx": [
+      "produce"
+    ], 
+    "RP3": [
+      "produce"
+    ], 
+    "THV": [
+      "vinegar"
+    ], 
+    "TPO": [
+      "fuel", 
+      "chemicals"
+    ], 
+    "XP3": [
+      "goods", 
+      "foodstuffs", 
+      "Machinery", 
+      "wire", 
+      "glassware", 
+      "LCL", 
+      "flour", 
+      "Genl Del", 
+      "Can Meat"
+    ], 
+    "XP4": [
+      "goods", 
+      "foodstuffs", 
+      "Machinery", 
+      "wire", 
+      "glassware", 
+      "LCL", 
+      "flour", 
+      "Genl Del", 
+      "Can Meat"
+    ], 
+    "XPV": [
+      "goods", 
+      "foodstuffs", 
+      "wire", 
+      "LCL", 
+      "glassware", 
+      "Genl Del", 
+      "Can Meat"
+    ]
+  }, 
+  "divisions": [
+    "Atlantic Division", 
+    "Glass Works Branch"
+  ], 
+  "industries": {
+    "10": {
+      "a-location": "Terminal", 
+      "b-track": "SB&I Ware House", 
+      "c-schedule": {
+        "SBIW": [
+          [
+            "XP3", 
+            "R", 
+            "wire", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "wire", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "wire", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "105": {
+      "a-location": "Township", 
+      "b-track": "Sand Storage", 
+      "c-schedule": {
+        "3SS": [
+          [
+            "GPD", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "108": {
+      "a-location": "Township", 
+      "b-track": "Ware House", 
+      "c-schedule": {
+        "3WH": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "11": {
+      "a-location": "Terminal", 
+      "b-track": "SB&I Scrap", 
+      "c-schedule": {
+        "SBIS": [
+          [
+            "GPD", 
+            "S", 
+            "scrap metal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "S", 
+            "scrap metal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "111": {
+      "a-location": "Salem Creek", 
+      "b-track": "Bonham & Young", 
+      "c-schedule": {
+        "BY": [
+          [
+            "XP3", 
+            "S", 
+            "Can Meat", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Can Meat", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Can Meat", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "16": {
+      "a-location": "Terminal", 
+      "b-track": "Coal Bin", 
+      "c-schedule": {
+        "SCB": [
+          [
+            "HPx", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "17": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Salem Gas Light", 
+      "c-schedule": {
+        "SGL": [
+          [
+            "HPx", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "18": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Electric Co of NJ", 
+      "c-schedule": {
+        "ECNJ": [
+          [
+            "HPD", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "19": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Sand Storage", 
+      "c-schedule": {
+        "4SS": [
+          [
+            "GPD", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "20": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Coal Trestle", 
+      "c-schedule": {
+        "4CT": [
+          [
+            "HPD", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "21": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Ware Shed", 
+      "c-schedule": {
+        "4WS": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "24": {
+      "a-location": "Township", 
+      "b-track": "Coal Gas", 
+      "c-schedule": {
+        "3CG": [
+          [
+            "HPD", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "25": {
+      "a-location": "Township", 
+      "b-track": "Sand House", 
+      "c-schedule": {
+        "3SH": [
+          [
+            "GPD", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "27": {
+      "a-location": "Township", 
+      "b-track": "Packing", 
+      "c-schedule": {
+        "3P": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "28": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Fuel Oil", 
+      "c-schedule": {
+        "FO": [
+          [
+            "TPO", 
+            "R", 
+            "fuel", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "32": {
+      "a-location": "Township", 
+      "b-track": "Kitchen", 
+      "c-schedule": {
+        "HJK": [
+          [
+            "RHx", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RP3", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "34": {
+      "a-location": "Township", 
+      "b-track": "Vinegar", 
+      "c-schedule": {
+        "HJV": [
+          [
+            "THV", 
+            "R", 
+            "vinegar", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "35": {
+      "a-location": "Township", 
+      "b-track": "Shipping", 
+      "c-schedule": {
+        "HJS": [
+          [
+            "XP3", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "38": {
+      "a-location": "Salem Creek", 
+      "b-track": "Box Shop", 
+      "c-schedule": {
+        "GBS": [
+          [
+            "FP3", 
+            "R", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "40": {
+      "a-location": "Salem Creek", 
+      "b-track": "GGW Coal Bin", 
+      "c-schedule": {
+        "GCB": [
+          [
+            "HPx", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "41": {
+      "a-location": "Salem Creek", 
+      "b-track": "AOC Coal Bin", 
+      "c-schedule": {
+        "AOC": [
+          [
+            "HPx", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "42": {
+      "a-location": "Salem Creek", 
+      "b-track": "Sand House", 
+      "c-schedule": {
+        "GSH": [
+          [
+            "GPD", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "sand", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "43": {
+      "a-location": "Salem Creek", 
+      "b-track": "Ware Shed", 
+      "c-schedule": {
+        "GWS": [
+          [
+            "XP3", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "46": {
+      "a-location": "Salem Creek", 
+      "b-track": "Chemical Rack", 
+      "c-schedule": {
+        "AOR": [
+          [
+            "TPO", 
+            "R", 
+            "chemicals", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "47": {
+      "a-location": "Salem Creek", 
+      "b-track": "S&PSNCo", 
+      "c-schedule": {
+        "SPSN": [
+          [
+            "FP3", 
+            "R", 
+            "lumber bh flat", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "lumber bh flat", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "lumber bh flat", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "lumber bh flat", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "53": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Glass Storage", 
+      "c-schedule": {
+        "3S": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "54": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Glassware", 
+      "c-schedule": {
+        "4G": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "57": {
+      "a-location": "Fenwick Creek", 
+      "b-track": "Ware House", 
+      "c-schedule": {
+        "4WH": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "63": {
+      "a-location": "Salem Creek", 
+      "b-track": "FH Lloyd", 
+      "c-schedule": {
+        "FHL": [
+          [
+            "XP3", 
+            "R", 
+            "flour", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "flour", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "68": {
+      "a-location": "Salem Creek", 
+      "b-track": "Shipping", 
+      "c-schedule": {
+        "AOS": [
+          [
+            "XP3", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "glassware", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "Terminal", 
+      "b-track": "General Delivery", 
+      "c-schedule": {
+        "SGD": [
+          [
+            "FP3", 
+            "R", 
+            "tarp2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "barrels", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "R", 
+            "Genl Del", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Genl Del", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "Genl Del", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Genl Del", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "Genl Del", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Genl Del", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "72": {
+      "a-location": "Salem Creek", 
+      "b-track": "WH Harris", 
+      "c-schedule": {
+        "WHH": [
+          [
+            "FP3", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "lumber2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "lumber2", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "74": {
+      "a-location": "Salem Creek", 
+      "b-track": "Ware House", 
+      "c-schedule": {
+        "GWH": [
+          [
+            "XP3", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "82": {
+      "a-location": "Terminal", 
+      "b-track": "JF Ayers", 
+      "c-schedule": {
+        "JFA": [
+          [
+            "XP3", 
+            "R", 
+            "Machinery", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "Machinery", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "Machinery", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "84": {
+      "a-location": "Terminal", 
+      "b-track": "Luke F Smith", 
+      "c-schedule": {
+        "LFS": [
+          [
+            "XP3", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "86": {
+      "a-location": "Terminal", 
+      "b-track": "Ramp", 
+      "c-schedule": {
+        "SR": [
+          [
+            "FP3", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "89": {
+      "a-location": "Terminal", 
+      "b-track": "Salem Freight House", 
+      "c-schedule": {
+        "SDFH": [
+          [
+            "XP3", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "93": {
+      "a-location": "Terminal", 
+      "b-track": "SB&I Material", 
+      "c-schedule": {
+        "SBIM": [
+          [
+            "FP3", 
+            "R", 
+            "material", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "material", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "material", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "material", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "97": {
+      "a-location": "Terminal", 
+      "b-track": "Smith Canning", 
+      "c-schedule": {
+        "SC": [
+          [
+            "XP3", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "99": {
+      "a-location": "Township", 
+      "b-track": "Bottling & Packing", 
+      "c-schedule": {
+        "HJB": [
+          [
+            "XP3", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "WJ&SRR Salem & Glass Works Branch 1915", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "2", 
+      "label": "3CG", 
+      "location": "Township", 
+      "track": "Coal Gas", 
+      "type": "industry"
+    }, 
+    "10": {
+      "capacity": "2", 
+      "label": "4WS", 
+      "location": "Fenwick Creek", 
+      "track": "Ware Shed", 
+      "type": "industry"
+    }, 
+    "11": {
+      "capacity": "1", 
+      "label": "AOC", 
+      "location": "Salem Creek", 
+      "track": "AOC Coal Bin", 
+      "type": "industry"
+    }, 
+    "12": {
+      "capacity": "2", 
+      "label": "AOR", 
+      "location": "Salem Creek", 
+      "track": "Chemical Rack", 
+      "type": "industry"
+    }, 
+    "13": {
+      "capacity": "2", 
+      "label": "AOS", 
+      "location": "Salem Creek", 
+      "track": "Shipping", 
+      "type": "industry"
+    }, 
+    "14": {
+      "capacity": "2", 
+      "label": "BY", 
+      "location": "Salem Creek", 
+      "track": "Bonham & Young", 
+      "type": "industry"
+    }, 
+    "15": {
+      "capacity": "3", 
+      "label": "ECNJ", 
+      "location": "Fenwick Creek", 
+      "track": "Electric Co of NJ", 
+      "type": "industry"
+    }, 
+    "16": {
+      "capacity": "2", 
+      "label": "FHL", 
+      "location": "Salem Creek", 
+      "track": "FH Lloyd", 
+      "type": "industry"
+    }, 
+    "17": {
+      "capacity": "4", 
+      "label": "FO", 
+      "location": "Fenwick Creek", 
+      "track": "Fuel Oil", 
+      "type": "industry"
+    }, 
+    "18": {
+      "capacity": "1", 
+      "label": "GBS", 
+      "location": "Salem Creek", 
+      "track": "Box Shop", 
+      "type": "industry"
+    }, 
+    "19": {
+      "capacity": "1", 
+      "label": "GCB", 
+      "location": "Salem Creek", 
+      "track": "GGW Coal Bin", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "2", 
+      "label": "3P", 
+      "location": "Township", 
+      "track": "Packing", 
+      "type": "industry"
+    }, 
+    "21": {
+      "capacity": "4", 
+      "label": "GSH", 
+      "location": "Salem Creek", 
+      "track": "Sand House", 
+      "type": "industry"
+    }, 
+    "22": {
+      "capacity": "3", 
+      "label": "GWH", 
+      "location": "Salem Creek", 
+      "track": "Ware House", 
+      "type": "industry"
+    }, 
+    "23": {
+      "capacity": "1", 
+      "label": "GWS", 
+      "location": "Salem Creek", 
+      "track": "Ware Shed", 
+      "type": "industry"
+    }, 
+    "24": {
+      "capacity": "2", 
+      "label": "HJB", 
+      "location": "Township", 
+      "track": "Bottling & Packing", 
+      "type": "industry"
+    }, 
+    "25": {
+      "capacity": "4", 
+      "label": "HJS", 
+      "location": "Township", 
+      "track": "Shipping", 
+      "type": "industry"
+    }, 
+    "26": {
+      "capacity": "4", 
+      "label": "HJK", 
+      "location": "Township", 
+      "track": "Kitchen", 
+      "type": "industry"
+    }, 
+    "27": {
+      "capacity": "2", 
+      "label": "HJV", 
+      "location": "Township", 
+      "track": "Vinegar", 
+      "type": "industry"
+    }, 
+    "28": {
+      "capacity": "2", 
+      "label": "SGL", 
+      "location": "Fenwick Creek", 
+      "track": "Salem Gas Light", 
+      "type": "industry"
+    }, 
+    "29": {
+      "capacity": "3", 
+      "label": "SPSN", 
+      "location": "Salem Creek", 
+      "track": "S&PSNCo", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "3", 
+      "label": "3S", 
+      "location": "Fenwick Creek", 
+      "track": "Glass Storage", 
+      "type": "industry"
+    }, 
+    "30": {
+      "capacity": "2", 
+      "label": "WHH", 
+      "location": "Salem Creek", 
+      "track": "WH Harris", 
+      "type": "industry"
+    }, 
+    "31": {
+      "capacity": "57", 
+      "label": "Y", 
+      "location": "Salem", 
+      "track": "Yard", 
+      "type": "staging"
+    }, 
+    "32": {
+      "capacity": "1", 
+      "label": "4G", 
+      "location": "Fenwick Creek", 
+      "track": "Glassware", 
+      "type": "industry"
+    }, 
+    "33": {
+      "capacity": "2", 
+      "label": "SR", 
+      "location": "Terminal", 
+      "track": "Ramp", 
+      "type": "industry"
+    }, 
+    "34": {
+      "capacity": "1", 
+      "label": "JFA", 
+      "location": "Terminal", 
+      "track": "JF Ayers", 
+      "type": "industry"
+    }, 
+    "35": {
+      "capacity": "1", 
+      "label": "LFS", 
+      "location": "Terminal", 
+      "track": "Luke F Smith", 
+      "type": "industry"
+    }, 
+    "36": {
+      "capacity": "2", 
+      "label": "SBIM", 
+      "location": "Terminal", 
+      "track": "SB&I Material", 
+      "type": "industry"
+    }, 
+    "37": {
+      "capacity": "1", 
+      "label": "SBIS", 
+      "location": "Terminal", 
+      "track": "SB&I Scrap", 
+      "type": "industry"
+    }, 
+    "38": {
+      "capacity": "2", 
+      "label": "SBIW", 
+      "location": "Terminal", 
+      "track": "SB&I Ware House", 
+      "type": "industry"
+    }, 
+    "39": {
+      "capacity": "1", 
+      "label": "SC", 
+      "location": "Terminal", 
+      "track": "Smith Canning", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "1", 
+      "label": "3SH", 
+      "location": "Township", 
+      "track": "Sand House", 
+      "type": "industry"
+    }, 
+    "40": {
+      "capacity": "2", 
+      "label": "SCB", 
+      "location": "Terminal", 
+      "track": "Coal Bin", 
+      "type": "industry"
+    }, 
+    "41": {
+      "capacity": "4", 
+      "label": "SDFH", 
+      "location": "Terminal", 
+      "track": "Salem Freight House", 
+      "type": "industry"
+    }, 
+    "42": {
+      "capacity": "6", 
+      "label": "SGD", 
+      "location": "Terminal", 
+      "track": "General Delivery", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "2", 
+      "label": "3SS", 
+      "location": "Township", 
+      "track": "Sand Storage", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "2", 
+      "label": "3WH", 
+      "location": "Township", 
+      "track": "Ware House", 
+      "type": "industry"
+    }, 
+    "7": {
+      "capacity": "4", 
+      "label": "4CT", 
+      "location": "Fenwick Creek", 
+      "track": "Coal Trestle", 
+      "type": "industry"
+    }, 
+    "8": {
+      "capacity": "2", 
+      "label": "4SS", 
+      "location": "Fenwick Creek", 
+      "track": "Sand Storage", 
+      "type": "industry"
+    }, 
+    "9": {
+      "capacity": "3", 
+      "label": "4WH", 
+      "location": "Fenwick Creek", 
+      "track": "Ware House", 
+      "type": "industry"
+    }
+  }, 
+  "location": "Salem, New Jersey", 
+  "locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5", 
+    "6", 
+    "7", 
+    "8", 
+    "9", 
+    "10", 
+    "11", 
+    "12", 
+    "13", 
+    "14", 
+    "15", 
+    "16", 
+    "17", 
+    "18", 
+    "19", 
+    "21", 
+    "22", 
+    "23", 
+    "24", 
+    "25", 
+    "26", 
+    "27", 
+    "28", 
+    "29", 
+    "30", 
+    "31", 
+    "32", 
+    "34", 
+    "35", 
+    "36", 
+    "37", 
+    "38", 
+    "39", 
+    "41", 
+    "33", 
+    "40", 
+    "42"
+  ], 
+  "locations": [
+    "Township", 
+    "Terminal", 
+    "Salem Creek", 
+    "Fenwick Creek", 
+    "Salem", 
+    "Unreported"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "B6s", 
+      "ESS"
+    ], 
+    [
+      "A5s", 
+      "ESS"
+    ]
+  ], 
+  "locoTypes": [
+    "ESS"
+  ], 
+  "operatingRoad": "West Jersey & Seashore RR", 
+  "roads": [
+    "NYNH&H", 
+    "HJH", 
+    "TCX", 
+    "LV", 
+    "UTLX", 
+    "PRR", 
+    "FGEX", 
+    "DL&W", 
+    "NYC", 
+    "TELX", 
+    "AT&SF", 
+    "B&A", 
+    "SP", 
+    "WJ&S", 
+    "ACL", 
+    "B&O", 
+    "ER", 
+    "ET", 
+    "PGCC", 
+    "M&P", 
+    "WCC", 
+    "PL", 
+    "P&R", 
+    "CNJ"
+  ], 
+  "scale": "", 
+  "territory": "Salem & Glass Works Branch", 
+  "year": "1915"
+}

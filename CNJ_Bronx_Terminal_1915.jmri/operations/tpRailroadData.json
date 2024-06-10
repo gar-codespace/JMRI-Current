@@ -1,0 +1,335 @@
+{
+  "AAR_Caboose": [
+    "N", 
+    "NE", 
+    "NM"
+  ], 
+  "AAR_Engine": [
+    "E", 
+    "ES", 
+    "ED", 
+    "EE", 
+    "EP"
+  ], 
+  "AAR_Express": [
+    ""
+  ], 
+  "AAR_MOW": [
+    "F", 
+    "FA", 
+    "FA6", 
+    "FB", 
+    "FC", 
+    "FCA", 
+    "FD", 
+    "FL", 
+    "FM", 
+    "FS", 
+    "FW", 
+    "G", 
+    "GA", 
+    "GB", 
+    "GD", 
+    "GBH", 
+    "GE", 
+    "GS", 
+    "GT", 
+    "H", 
+    "HM", 
+    "LG", 
+    "LO", 
+    "LP", 
+    "LT", 
+    "O", 
+    "RA", 
+    "RBL", 
+    "RP", 
+    "S", 
+    "SH", 
+    "SM", 
+    "T", 
+    "TA", 
+    "TL", 
+    "TW", 
+    "X", 
+    "XAR", 
+    "XMR", 
+    "XI", 
+    "XM", 
+    "XP"
+  ], 
+  "AAR_Passenger": [
+    "HT", 
+    "HK"
+  ], 
+  "CarRoster_loads": {
+    "FM": [
+      "steel beams", 
+      "Tarp3", 
+      "Tarp"
+    ], 
+    "GA": [
+      "Tarp3", 
+      "tools"
+    ], 
+    "HK": [
+      "coal"
+    ], 
+    "M": [], 
+    "RS": [
+      "produce"
+    ], 
+    "TG": [
+      "fuel oil"
+    ], 
+    "XM": [
+      "goods", 
+      "merchandise", 
+      "LCL"
+    ]
+  }, 
+  "CarRoster_newKernels": [
+    ""
+  ], 
+  "CarRoster_roads": [
+    "MDX", 
+    "NYNH&H", 
+    "TCX", 
+    "WJ&S", 
+    "ACL", 
+    "B&O", 
+    "UTLX", 
+    "ER", 
+    "PRR", 
+    "FGEX", 
+    "CNJMoW", 
+    "M&P", 
+    "WCC", 
+    "NYC", 
+    "TELX", 
+    "AT&SF", 
+    "PL", 
+    "P&R", 
+    "B&A", 
+    "SP", 
+    "CNJ"
+  ], 
+  "CarRoster_types": [
+    "RS", 
+    "HK", 
+    "FM", 
+    "M", 
+    "TG", 
+    "XM", 
+    "GA"
+  ], 
+  "EngineRoster_models": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "EngineRoster_newConsists": [
+    ""
+  ], 
+  "EngineRoster_types": [
+    "ES"
+  ], 
+  "Extended_buildDate": "08/30/2023-21:04:23", 
+  "Extended_divisions": [
+    ""
+  ], 
+  "Extended_layoutName": "CNJ Bronx Terminal 1915", 
+  "Extended_location": "Mott Haven, the Bronx, New York", 
+  "Extended_operatingRoad": "Central Railroad of New Jersey", 
+  "Extended_scale": "HO", 
+  "Extended_territory": "Bronx Terminal", 
+  "Extended_year": "1915", 
+  "LocationRoster_location": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Non d\u00e9clar\u00e9e", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "4", 
+      "label": "G", 
+      "location": "Bronx Terminal", 
+      "track": "Gantry", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "60", 
+      "label": "T", 
+      "location": "Bronx Terminal", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "17", 
+      "label": "PF", 
+      "location": "Pier Float", 
+      "track": "Pier Float", 
+      "type": "staging"
+    }, 
+    "4": {
+      "capacity": "12", 
+      "label": "H", 
+      "location": "Bronx Terminal", 
+      "track": "Freight House", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "29", 
+      "label": "Y", 
+      "location": "Bronx Terminal", 
+      "track": "Yard", 
+      "type": "interchange"
+    }
+  }, 
+  "LocationRoster_locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5"
+  ], 
+  "LocationRoster_locations": [
+    "Pier Float", 
+    "Bronx Terminal", 
+    "Non d\u00e9clar\u00e9e"
+  ], 
+  "LocationRoster_spurs": {
+    "1": {
+      "a-location": "Bronx Terminal", 
+      "b-track": "Freight House", 
+      "c-schedule": {
+        "H": [
+          [
+            "XM", 
+            "R", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "LCL", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "Bronx Terminal", 
+      "b-track": "Gantry", 
+      "c-schedule": {
+        "G": [
+          [
+            "FM", 
+            "R", 
+            "steel beams", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "tools", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "Bronx Terminal", 
+      "b-track": "Team Tracks", 
+      "c-schedule": {
+        "T": [
+          [
+            "FM", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FM", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "HK", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "TG", 
+            "R", 
+            "fuel oil", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }
+}

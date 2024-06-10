@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-engines.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-engines.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Aug 30 23:14:37 PDT 2023-->
+  <models>
+    <model name="0-4-0t" />
+  </models>
+  <types>
+    <type name="ES" />
+  </types>
+  <lengths>
+    <length value="40" />
+  </lengths>
+  <newConsists />
+  <engines>
+    <engine id="CNJ420" roadName="CNJ" roadNumber="420" type="ES" length="40" color="Générique" locationId="3" secLocationId="3s1" moves="0" date="" selected="false" model="0-4-0t" hp="" bUnit="false" />
+  </engines>
+</operations-config>

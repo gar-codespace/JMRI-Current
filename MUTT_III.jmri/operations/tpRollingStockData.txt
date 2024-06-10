@@ -1,0 +1,39 @@
+MUTT 807;A4;ESS;MUTT;South Yard;unloadable;;7
+FGEX 2366;PRR Rf;RP3;MUTT;South Yard;Empty;;11
+PRR 6926;PRR Xl;XP3;MUTT;South Yard;Empty;;12
+PRR 8202;PRR Xm;XPP;MUTT;South Yard;Empty;;40
+P&R 2083;PRR Gi;GPD;MUTT;South Yard;Empty;;45
+MUTT 9664;Bdr;Bdr;MUTT;South Yard;Empty;;47
+FGEX 5842;PRR Rf;RP3;MUTT;South Yard;Empty;;48
+ER 5245;PRR Fm;FP4;MUTT;South Yard;Empty;;49
+AT&SF 8875;PRR Fk;FP3;MUTT;South Yard;Empty;;50
+LV 5591;PRR Xl;XP3;MUTT;South Yard;Empty;;51
+UTLX 7293;Union Tank;TPO;MUTT;South Yard;Empty;;52
+PL 1730;PRR Xl Vent;XPV;MUTT;South Yard;Empty;;53
+LV 2248;PRR Xl;XP3;MUTT;South Yard;Empty;;54
+MUTT 153;PRR Nd;NPD;MUTT;South Yard;Empty;;28
+SP 7104;PRR Xg;XP3;Basin Street;4th St Pier;Empty;;2
+LV 3895;PRR X23;XP4;Basin Street;4th St Pier;Empty;;3
+P&R 0238;PRR Xg;XP3;Basin Street;4th St Pier;Empty;;4
+PRR 2592;PRR Xl;XP3;Basin Street;4th St Pier;Empty;;5
+DL&W 7222;PRR Xl;XP3;Basin Street;4th St Pier;Empty;;6
+NYC 0999;PRR Fm;FP4;Basin Street;4th St Pier;Empty;;8
+WJ&S 4869;PRR Xg;XP3;Basin Street;Tea;Empty;;9
+SP 2109;PRR Xl;XP3;Basin Street;Coffee Roasters;Empty;;10
+FGEX 1748;PRR Rf;RP3;Basin Street;Mother Schuckers;Empty;;19
+FGEX 7734;PRR Rf;RP3;Basin Street;Mother Schuckers;Empty;;20
+FGEX 8980;PRR Rf;RP3;Basin Street;Mother Schuckers;Empty;;21
+NYC 1572;PRR Fk;FP3;Basin Street;Basin St Wharf;Empty;;23
+PRR 6197;PRR Gr;GPx;Basin Street;Basin St Wharf;Empty;;24
+MUTT 0700;Bd;Bd;Basin Street;Express;Empty;;26
+MUTT 6140;Bd;Bd;Basin Street;Express;Empty;;27
+B&O 7292;PRR Gi;GPD;Basin Street;Bulk Material Wharf;Empty;;1
+ER 5374;PRR Gi;GPD;Basin Street;Bulk Material Wharf;Empty;;22
+P&R 1716;PRR Gi;GPD;Basin Street;Bulk Material Wharf;Empty;;25
+PL 4479;PRR X23;XP4;Basin Street;Basin St Stores;Empty;;13
+FGEX 9396;PRR Rf;RP3;Basin Street;Basin St Stores;Empty;;14
+B&A 4842;PRR Xl;XP3;Basin Street;Basin St Stores;Empty;;15
+CS 6537;PRR Xl;XP3;Basin Street;Basin St Stores;Empty;;16
+SP 2696;PRR Xg;XP3;Basin Street;Basin St Stores;Empty;;17
+PRR 5812;PRR Xl Vent;XPV;Basin Street;Basin St Stores;Empty;;29
+WJ&S 7467;PRR Xl;XP3;Basin Street;Basin St Stores;Empty;;18

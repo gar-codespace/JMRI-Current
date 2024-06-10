@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 14:30:24 PDT 2023-->
+  <divisions>
+    <division id="1" name="East River Operations" comment="" />
+    <division id="5" name="Unassigned" comment="" />
+    <division id="6" name="Unknown" comment="" />
+  </divisions>
+  <locations>
+    <location id="1" name="Pier Float North" divisionId="1" ops="2" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="XM" />
+        <carType name="M" />
+        <locoType name="ES" />
+      </types>
+      <track id="1s1" name="North Float" trackType="Staging" dir="15" length="748" moves="211" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
+        <types>
+          <locoType name="ES" />
+          <carType name="XM" />
+          <carType name="M" />
+        </types>
+        <carLoads />
+        <dropIds>
+          <dropId id="4" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="4" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:7" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+    </location>
+    <location id="2" name="Pier Float South" divisionId="1" ops="2" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="XM" />
+        <carType name="M" />
+        <locoType name="ES" />
+      </types>
+      <track id="2s1" name="South Float" trackType="Staging" dir="15" length="748" moves="238" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
+        <types>
+          <locoType name="ES" />
+          <carType name="XM" />
+          <carType name="M" />
+        </types>
+        <carLoads />
+        <dropIds>
+          <dropId id="3" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="3" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:6" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+    </location>
+    <location id="3" name="Unreported" divisionId="6" ops="1" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="XM" />
+        <carType name="M" />
+        <locoType name="ES" />
+      </types>
+      <track id="3s1" name="~" trackType="Yard" dir="0" length="4400" moves="0">
+        <types>
+          <carType name="XM" />
+          <carType name="M" />
+          <locoType name="ES" />
+        </types>
+        <comments>
+          <track comment="TrainPlayer ID:00" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+    </location>
+    <location id="4" name="Fulton Terminal" divisionId="1" ops="1" dir="15" switchList="true" comment="" switchListComment="">
+      <types>
+        <carType name="XM" />
+        <carType name="M" />
+        <locoType name="ES" />
+      </types>
+      <track id="4s1" name="Pier 18" trackType="Spur" dir="11" length="352" moves="68" dropOption="trains" pickupOption="trains" schedule="P18" scheduleId="1051" itemId="1051c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="2" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="2" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:11" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s10" name="Freight House" trackType="Spur" dir="7" length="528" moves="46" dropOption="trains" pickupOption="trains" schedule="FH" scheduleId="1057" itemId="1057c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="1" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="1" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:1" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s11" name="Harbecks Stores" trackType="Spur" dir="7" length="396" moves="69" dropOption="trains" pickupOption="trains" schedule="H26" scheduleId="1053" itemId="1053c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="1" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="1" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:2" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s12" name="New York Express" trackType="Spur" dir="7" length="176" moves="31" dropOption="trains" pickupOption="trains" schedule="NYX" scheduleId="1056" itemId="1056c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="1" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="1" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:3" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s13" name="Pier 19" trackType="Spur" dir="11" length="308" moves="68" dropOption="trains" pickupOption="trains" schedule="P19" scheduleId="1052" itemId="1052c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="2" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="2" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:4" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s14" name="Prentices Stores" trackType="Spur" dir="11" length="396" moves="67" dropOption="trains" pickupOption="trains" schedule="P56" scheduleId="1050" itemId="1050c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="2" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="2" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:5" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s15" name="Roberts Stores" trackType="Spur" dir="11" length="176" moves="67" dropOption="trains" pickupOption="trains" schedule="R37" scheduleId="1060" itemId="1060c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="5" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="5" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:8" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s16" name="Woodruffs Stores" trackType="Spur" dir="11" length="1056" moves="67" dropOption="trains" pickupOption="trains" schedule="W67" scheduleId="1055" itemId="1055c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="2" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="2" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:9" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s17" name="Stub Track" trackType="Interchange" dir="15" length="352" moves="36" onlyCarWithFD="false">
+        <types>
+          <carType name="XM" />
+          <carType name="M" />
+          <locoType name="ES" />
+        </types>
+        <comments>
+          <track comment="TrainPlayer ID:20" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s18" name="West Yard" trackType="Interchange" dir="15" length="924" moves="186" pickupOption="excludeTrains" onlyCarWithFD="false">
+        <types>
+          <locoType name="ES" />
+          <carType name="XM" />
+          <carType name="M" />
+        </types>
+        <pickupIds>
+          <pickupId id="4" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:10" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s2" name="Martins Stores-Foodstuffs" trackType="Spur" dir="7" length="176" moves="41" dropOption="trains" pickupOption="trains" schedule="M18" scheduleId="1058" itemId="1058c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="1" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="1" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:12" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s3" name="Martins Stores-Coffee" trackType="Spur" dir="11" length="44" moves="10" dropOption="trains" pickupOption="trains" schedule="M21" scheduleId="1059" itemId="1059c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="5" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="5" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:13" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s4" name="Martins Stores-Wool" trackType="Spur" dir="11" length="132" moves="27" dropOption="trains" pickupOption="trains" schedule="M23" scheduleId="1054" itemId="1054c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="5" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="5" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:14" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s5" name="Mediterranean Stores" trackType="Spur" dir="11" length="220" moves="68" dropOption="trains" pickupOption="trains" schedule="M43" scheduleId="1061" itemId="1061c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="5" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="5" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:15" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s6" name="Pierponts Stores" trackType="Spur" dir="11" length="176" moves="68" dropOption="trains" pickupOption="trains" schedule="P48" scheduleId="1049" itemId="1049c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="5" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="5" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:16" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s7" name="East Yard" trackType="Interchange" dir="15" length="880" moves="180" pickupOption="excludeTrains" onlyCarWithFD="false">
+        <types>
+          <locoType name="ES" />
+          <carType name="XM" />
+          <carType name="M" />
+        </types>
+        <pickupIds>
+          <pickupId id="3" />
+        </pickupIds>
+        <comments>
+          <track comment="TrainPlayer ID:17" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s8" name="Fiddle Yard North" trackType="Yard" dir="7" length="440" moves="71">
+        <types>
+          <locoType name="ES" />
+          <carType name="XM" />
+          <carType name="M" />
+        </types>
+        <comments>
+          <track comment="TrainPlayer ID:18" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+      <track id="4s9" name="Fiddle Yard South" trackType="Yard" dir="11" length="308" moves="27">
+        <types>
+          <locoType name="ES" />
+          <carType name="XM" />
+          <carType name="M" />
+        </types>
+        <comments>
+          <track comment="TrainPlayer ID:19" />
+          <both comment="" />
+          <pickup comment="" />
+          <setout comment="" />
+          <printManifest comment="true" />
+          <printSwitchLists comment="false" />
+        </comments>
+      </track>
+    </location>
+  </locations>
+  <schedules>
+    <schedule id="1049" name="P48" comment="">
+      <item id="1049c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Coffee" comment="" hits="1" />
+    </schedule>
+    <schedule id="1050" name="P56" comment="">
+      <item id="1050c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+    </schedule>
+    <schedule id="1051" name="P18" comment="">
+      <item id="1051c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="1" />
+    </schedule>
+    <schedule id="1052" name="P19" comment="">
+      <item id="1052c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="1" />
+    </schedule>
+    <schedule id="1053" name="H26" comment="">
+      <item id="1053c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Break Bulk" comment="" hits="1" />
+    </schedule>
+    <schedule id="1054" name="M23" comment="">
+      <item id="1054c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="1" />
+      <item id="1054c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Tobacco" comment="" hits="0" />
+    </schedule>
+    <schedule id="1055" name="W67" comment="">
+      <item id="1055c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Tobacco" comment="" hits="0" />
+      <item id="1055c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="0" />
+      <item id="1055c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Beans" comment="" hits="0" />
+      <item id="1055c4" sequenceId="4" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+    </schedule>
+    <schedule id="1056" name="NYX" comment="">
+      <item id="1056c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Express in" ship="Express out" comment="" hits="0" />
+    </schedule>
+    <schedule id="1057" name="FH" comment="">
+      <item id="1057c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="L.C.L. in" ship="L.C.L. out" comment="" hits="0" />
+    </schedule>
+    <schedule id="1058" name="M18" comment="">
+      <item id="1058c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="1" />
+    </schedule>
+    <schedule id="1059" name="M21" comment="">
+      <item id="1059c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Coffee" comment="" hits="0" />
+    </schedule>
+    <schedule id="1060" name="R37" comment="">
+      <item id="1060c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="0" />
+    </schedule>
+    <schedule id="1061" name="M43" comment="">
+      <item id="1061c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Chickpeas" comment="" hits="0" />
+      <item id="1061c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Imports" comment="" hits="0" />
+      <item id="1061c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Beans" comment="" hits="0" />
+    </schedule>
+  </schedules>
+</operations-config>

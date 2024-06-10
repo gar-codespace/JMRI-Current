@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-engines.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-engines.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Jun 06 19:48:51 PDT 2024-->
+  <models>
+    <model name="A4" />
+  </models>
+  <types>
+    <type name="ESS" />
+  </types>
+  <lengths>
+    <length value="40" />
+  </lengths>
+  <newConsists />
+  <engines>
+    <engine id="MUTT807" roadName="MUTT" roadNumber="807" type="ESS" length="40" color="Generic" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" model="A4" hp="" bUnit="false" />
+  </engines>
+</operations-config>
