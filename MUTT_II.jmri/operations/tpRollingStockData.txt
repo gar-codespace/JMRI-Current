@@ -1,37 +1,37 @@
-PRR 5151;Bd;Bd;Basin Street;Express;Empty;;7
-PRR 5150;Bd;Bd;Basin Street;Express;Empty;;8
-CNJ 8878;PRR Xl;XP3;Basin Street;Basin St Stores;Empty;;20
-LV 1748;PRR Xl Vent;XPV;Basin Street;Basin St Stores;Empty;;22
-P&R 3022;PRR Xg;XP3;Basin Street;Basin St Stores;Empty;;47
-PRR 0614;PRR Xl;XP3;Basin Street;Basin St Stores;Empty;;4
-PL 44011;PRR Xm;XPP;Basin Street;Basin St Stores;Empty;;2
-FGEX 9508;PRR Rf;RP3;Basin Street;Basin St Stores;Empty;;31
-ACL 4430;PRR Xg;XP3;Basin Street;Basin St Stores;Empty;;18
-LV 2943;PRR X23;XP4;Basin Street;Basin St Stores;Empty;;21
-PL 6762;PRR Fk;FP3;Basin Street;4th St Pier;Empty;;12
-B&O 6992;PRR Fm;FP4;Basin Street;4th St Pier;Empty;;13
-M&P 8833;PRR Xg;XP3;Basin Street;4th St Pier;Empty;;1
-AT&SF 5337;PRR Fk;FP3;Basin Street;4th St Pier;Empty;;48
-ER 2050;PRR Xl;XP3;Basin Street;4th St Pier;Empty;;42
-PRR 3990;Union Tank;TPO;Basin Street;4th St Pier;Empty;;14
-P&R 54488;PRR Fm;FP4;Basin Street;Gantry;Empty;;54
-FGEX 5751;PRR Rf;RP3;Basin Street;Mother Schuckers;Empty;;26
-FGEX 3597;PRR Rf;RP3;Basin Street;Mother Schuckers;Empty;;28
-FGEX 9489;PRR Rf;RP3;Basin Street;Mother Schuckers;Empty;;25
-AT&SF 0191;PRR Gr;GPx;Basin Street;Bulk Material Wharf;Empty;;17
-ER 1824;PRR Gr;GPx;Basin Street;Bulk Material Wharf;Empty;;27
-MUTT 492;A4;ESS;MUTT;South Yard;unloadable;;62
-ACL 0676;PRR X23;XP4;MUTT;South Yard;Empty;;39
-PRR 6249;PRR Xl;XP3;MUTT;South Yard;Empty;;43
-B&A 6470;PRR Gi;GPD;MUTT;South Yard;Empty;;16
-NYNH&H 9743;PRR Gr;GPx;MUTT;South Yard;Empty;;61
-PRR 0306;PRR Gi;GPD;MUTT;South Yard;Empty;;15
-P&R 8715;PRR Xg;XP3;MUTT;South Yard;Empty;;36
-B&A 1897;PRR Xl;XP3;MUTT;South Yard;Empty;;46
-PL 3265;PRR Xl;XP3;MUTT;South Yard;Empty;;23
-FGEX 9107;PRR Rf;RP3;MUTT;South Yard;Empty;;57
-FGEX 3882;PRR Rf;RP3;MUTT;South Yard;Empty;;56
-PRR 5069;Bdr;Bdr;MUTT;South Yard;Empty;;6
-WJ&S 6433;PRR Xl;XP3;MUTT;South Yard;Empty;;3
-PRR 02;PRR Nd;NPD;MUTT;South Yard;Empty;;5
-ACL 9405;PRR Xl;XP3;Basin Street;Coffee Roasters;Empty;;59
+FGEX 4724;PRR Rf;RP3;Basin St;Mother Schuckers;Empty;;57
+FGEX 0140;PRR Rf;RP3;Basin St;Mother Schuckers;Empty;;31
+FGEX 0929;PRR Rf;RP3;Basin St;Mother Schuckers;Empty;;56
+CNJ 2267;PRR Fk;FP3;Basin St;Water St Wharf;Empty;;48
+M&P 3584;PRR Gr;GPx;Basin St;Water St Wharf;Empty;;61
+NYC 1147;PRR Gr;GPx;Basin St;Bulk Material Wharf;Empty;;27
+C&O 8898;PRR Gr;GPx;Basin St;Bulk Material Wharf;Empty;;17
+CS 9134;PRR Gi;GPD;Basin St;Bulk Material Wharf;Empty;;16
+PRR 830;A4;ESS;West Yard;Basin Street;unloadable;;62
+FGEX 4336;PRR Rf;RP3;West Yard;Basin Street;Empty;;25
+WJ&S 9422;PRR Xl;XP3;West Yard;Basin Street;Empty;;4
+PL 8603;PRR Xm;XPP;West Yard;Basin Street;Empty;;2
+ER 3747;PRR Gi;GPD;West Yard;Basin Street;Empty;;15
+PRR 0828;Bdr;Bdr;West Yard;Basin Street;Empty;;6
+FGEX 9090;PRR Rf;RP3;West Yard;Basin Street;Empty;;28
+NYNH&H 1135;PRR Fm;FP4;West Yard;Basin Street;Empty;;54
+PL 5164;PRR Fk;FP3;West Yard;Basin Street;Empty;;12
+PRR 5189;PRR Xl;XP3;West Yard;Basin Street;Empty;;23
+UTLX 1061;Union Tank;TPO;West Yard;Basin Street;Empty;;14
+PL 1912;PRR Xl Vent;XPV;West Yard;Basin Street;Empty;;22
+PL 8325;PRR Xl;XP3;West Yard;Basin Street;Empty;;42
+PRR 982;PRR Nd;NPD;West Yard;Basin Street;Empty;;29
+B&O 7163;PRR Xg;XP3;Basin St;4th Street Pier;Empty;;36
+LV 0120;PRR X23;XP4;Basin St;4th Street Pier;Empty;;39
+PRR 3751;PRR Xg;XP3;Basin St;4th Street Pier;Empty;;47
+B&O 3859;PRR Xl;XP3;Basin St;4th Street Pier;Empty;;3
+P&R 7989;PRR Xl;XP3;Basin St;4th Street Pier;Empty;;59
+LV 9894;PRR Fm;FP4;Basin St;4th Street Pier;Empty;;13
+ER 0013;PRR Xg;XP3;Basin St;4th Street Pier;Empty;;18
+PRR 7323;Bd;Bd;Basin St;Express;Empty;;19
+PRR 0782;Bd;Bd;Basin St;Express;Empty;;24
+M&P 2323;PRR Xl;XP3;Basin St;Water Street Stores;Empty;;46
+DL&W 3728;PRR Xg;XP3;Basin St;Water Street Stores;Empty;;1
+ER 2972;PRR Xl;XP3;Basin St;Water Street Stores;Empty;;20
+WJ&S 8225;PRR Xl;XP3;Basin St;Water Street Stores;Empty;;43
+FGEX 4690;PRR Rf;RP3;Basin St;Water Street Stores;Empty;;26
+C&O 4336;PRR X23;XP4;Basin St;Water Street Stores;Empty;;21
