@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 12 15:31:41 PDT 2024-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Thu Jun 13 06:53:56 PDT 2024-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -163,17 +163,17 @@
     <car id="CS7815" roadName="CS" roadNumber="7815" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6012" load="E" />
     <car id="DL&amp;W5523" roadName="DL&amp;W" roadNumber="5523" type="FP4" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6001" load="Lumber" />
     <car id="ER1263" roadName="ER" roadNumber="1263" type="GPD" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s1" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="2" value="6001" load="Gravel" />
-    <car id="FGEX1259" roadName="FGEX" roadNumber="1259" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" value="6001" load="Empty" scheduleId="38c4" previousScheduleId="38c4" />
+    <car id="FGEX1259" roadName="FGEX" roadNumber="1259" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" value="6001" load="Empty" previousScheduleId="38c4" />
     <car id="FGEX1408" roadName="FGEX" roadNumber="1408" type="RP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6001" load="E" />
     <car id="FGEX6402" roadName="FGEX" roadNumber="6402" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s5" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6001" load="Live Oysters" />
-    <car id="FGEX8660" roadName="FGEX" roadNumber="8660" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" value="6003" load="Empty" scheduleId="38c4" previousScheduleId="38c4" />
+    <car id="FGEX8660" roadName="FGEX" roadNumber="8660" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" moves="0" date="" selected="false" value="6003" load="Empty" previousScheduleId="38c4" />
     <car id="FGEX8951" roadName="FGEX" roadNumber="8951" type="RP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="2" value="6002" load="Empty" />
     <car id="FGEX9660" roadName="FGEX" roadNumber="9660" type="RP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6008" load="E" />
     <car id="M&amp;P8197" roadName="M&amp;P" roadNumber="8197" type="XP4" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6002" load="E" />
     <car id="NYC0458" roadName="NYC" roadNumber="0458" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s8" moves="0" date="" selected="false" value="6001" load="Tea" />
     <car id="NYNH&amp;H2811" roadName="NYNH&amp;H" roadNumber="2811" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" moves="0" date="" selected="false" value="6005" load="Break Bulk" />
     <car id="P&amp;R8062" roadName="P&amp;R" roadNumber="8062" type="XP3" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s6" moves="0" date="" selected="false" value="6003" load="Break Bulk" />
-    <car id="PL8221" roadName="PL" roadNumber="8221" type="XPV" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="2" value="6004" load="Empty" scheduleId="38c2" />
+    <car id="PL8221" roadName="PL" roadNumber="8221" type="XPV" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="2" value="6004" load="Empty" scheduleId="38c2" previousScheduleId="38c2" />
     <car id="PL9267" roadName="PL" roadNumber="9267" type="XPP" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s7" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="2" value="6005" load="Empty" />
     <car id="PRR1935" roadName="PRR" roadNumber="1935" type="XPV" length="40" color="Generic" weightTons="0" locationId="1" secLocationId="1s5" moves="0" date="" selected="false" value="6002" load="Live Oysters" />
     <car id="PRR2123" roadName="PRR" roadNumber="2123" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="06/12/2024 10:33:57" selected="false" lastLocationId="1" value="6004" load="E" />
