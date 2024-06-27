@@ -63,7 +63,8 @@
       "Coffee", 
       "Tea", 
       "Foodstuffs", 
-      "Drygoods"
+      "Drygoods", 
+      "Merchandise"
     ], 
     "XP4": [
       "Can Oysters", 
@@ -71,7 +72,8 @@
       "Coffee", 
       "Tea", 
       "Foodstuffs", 
-      "Drygoods"
+      "Drygoods", 
+      "Merchandise"
     ], 
     "XPP": [
       "Produce"
@@ -79,7 +81,8 @@
     "XPV": [
       "Produce", 
       "Coffee", 
-      "Live Oysters"
+      "Live Oysters", 
+      "Merchandise"
     ]
   }, 
   "CarRoster_newKernels": [
@@ -91,8 +94,8 @@
     "ACL", 
     "B&O", 
     "UTLX", 
-    "ER", 
     "C&O", 
+    "ER", 
     "CS", 
     "PRR", 
     "FGEX", 
@@ -101,8 +104,8 @@
     "NYC", 
     "AT&SF", 
     "PL", 
-    "P&R", 
-    "SP"
+    "SP", 
+    "P&R"
   ], 
   "CarRoster_types": [
     "Bd", 
@@ -131,7 +134,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "06/12/2024-10:12:00", 
+  "Extended_buildDate": "06/27/2024-08:05:26", 
   "Extended_divisions": [
     ""
   ], 
@@ -488,6 +491,30 @@
             "TPO", 
             "S", 
             "Fuel Oil", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Merchandise", 
             "", 
             "", 
             ""
