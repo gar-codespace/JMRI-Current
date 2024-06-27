@@ -4,22 +4,23 @@
       "EC": {
         "400": "400 - Bad Request: Unable to translate the current language.", 
         "402": "402 - Requested page not found", 
-        "403": "403 - Forbidden. The key is invalid."
+        "403": "403 - Forbidden. The key is invalid.", 
+        "456": "456 - Usage limits exceeded."
       }, 
-      "EH": false, 
       "EO": {
         "CA": "utf-8", 
         "CB": "ascii", 
         "CC": "utf-16", 
         "CD": "ISO-8859"
       }, 
+      "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 699, 
+      "PH": 280, 
       "PW": 1000, 
-      "PX": -9, 
-      "PY": 306, 
-      "RV": 20230812, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -27,16 +28,7 @@
         "UX": "UseSomethingElse"
       }
     }, 
-    "LD": {
-      "BD": "", 
-      "JN": "", 
-      "LN": "", 
-      "LO": "", 
-      "OR": "", 
-      "SC": "", 
-      "TR": "", 
-      "YR": ""
-    }, 
+    "SL": [], 
     "SR": {
       "G": 11, 
       "HO": 6, 
@@ -51,6 +43,36 @@
       "Z": 1
     }, 
     "US": {
+      "AW": {
+        " ": 1, 
+        "Color": 6, 
+        "Comment": 15, 
+        "Consist": 8, 
+        "DCC_Address": 10, 
+        "Dest&Track": 27, 
+        "Destination": 15, 
+        "Division": 15, 
+        "FD&Track": 23, 
+        "Final_Dest": 11, 
+        "Hazardous": 10, 
+        "Kernel": 7, 
+        "Kernel_Size": 3, 
+        "Length": 3, 
+        "Load": 12, 
+        "Load_Type": 1, 
+        "Location": 9, 
+        "Model": 5, 
+        "Number": 5, 
+        "Owner": 20, 
+        "PickUp_Msg": 12, 
+        "RWE": 10, 
+        "RWL": 10, 
+        "Road": 4, 
+        "SetOut_Msg": 12, 
+        "Track": 12, 
+        "Type": 3, 
+        "Weight": 7
+      }, 
       "CD": {
         "BLANCH": {
           "A": 210, 
@@ -105,7 +127,13 @@
         "colorB": "FADED", 
         "colorC": "RASH"
       }, 
-      "OC": true
+      "HCP": " [ ] Hold", 
+      "OC": true, 
+      "OPR": "pattern report ({}).{}", 
+      "OSL": "switch list ({}).{}", 
+      "OT": false, 
+      "OTL": "train list ({}).{}", 
+      "OWO": "work order ({}).{}"
     }
   }, 
   "Patterns": {
@@ -116,17 +144,8 @@
     "PD": null, 
     "PH": 16, 
     "PI": true, 
-    "PL": "HTC", 
-    "PT": {
-      "Cement House": false, 
-      "Freight House": false, 
-      "Fuel Depot": false, 
-      "Gantry Crane": false, 
-      "General Delivery": false, 
-      "LDM&ECo Feed": false, 
-      "LDM&ECo Grain": false, 
-      "Railroad Avenue": false
-    }, 
+    "PL": null, 
+    "PT": {}, 
     "PW": 260, 
     "RD": "", 
     "RF": 8, 
@@ -135,68 +154,54 @@
     "TD": "", 
     "TN": "", 
     "US": {
-      "AW": {
-        " ": 1, 
-        "Color": 6, 
-        "Comment": 15, 
-        "Consist": 8, 
-        "DCC_Address": 10, 
-        "Dest&Track": 27, 
-        "Destination": 15, 
-        "Division": 15, 
-        "FD&Track": 23, 
-        "Final_Dest": 11, 
-        "Hazardous": 10, 
-        "Kernel": 7, 
-        "Kernel_Size": 3, 
-        "Length": 7, 
-        "Load": 6, 
-        "Load_Type": 1, 
-        "Location": 9, 
-        "Model": 5, 
-        "Number": 7, 
-        "Owner": 20, 
-        "PickUp_Msg": 12, 
-        "RWE": 10, 
-        "RWL": 10, 
-        "Road": 5, 
-        "SetOut_Msg": 12, 
-        "Track": 6, 
-        "Type": 6, 
-        "Weight": 7, 
-        "onTrain": 0, 
-        "puso": 6, 
-        "setTo": 6
-      }, 
       "DS": "Not Assigned", 
       "DT": "Not Scheduled", 
       "EH": "Available", 
       "FD": "Unconsigned", 
       "FT": "No Waybill", 
-      "SC": [
-        "Load_Type", 
-        "FD&Track"
-      ], 
-      "SL": [
-        "Model"
-      ]
+      "SC": {
+        "destination userName": 0, 
+        "division": 0, 
+        "finalDestination userName": 1, 
+        "loadType": 2, 
+        "road": 0
+      }, 
+      "SL": {
+        "destination userName": 0, 
+        "model": 1, 
+        "road": 0
+      }
     }
   }, 
-  "Template": {
+  "Scanner": {
+    "SI": null, 
     "SV": true, 
-    "US": {}
+    "US": {
+      "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
+    }
   }, 
   "Throwback": {
-    "SS": [
+    "SV": true, 
+    "TC": [
       [
         "", 
         ""
       ]
     ], 
-    "SV": true, 
     "US": {}
   }, 
   "jPlus": {
+    "LD": {
+      "BD": "", 
+      "EH": false, 
+      "JN": "", 
+      "LN": "", 
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
+    }, 
     "SV": true, 
     "US": {}
   }, 
@@ -216,7 +221,9 @@
         "A03", 
         "A08", 
         "A07", 
-        "A13"
+        "A25", 
+        "A13", 
+        "A12"
       ], 
       "PUC": [
         "A01", 
@@ -224,14 +231,16 @@
         "A03", 
         "A08", 
         "A07", 
-        "A11"
+        "A25", 
+        "A10"
       ], 
       "PUL": [
         "A01", 
         "A02", 
         "A04", 
         "A16", 
-        "A11"
+        "A15", 
+        "A10"
       ], 
       "SOC": [
         "A01", 
@@ -239,7 +248,8 @@
         "A03", 
         "A08", 
         "A07", 
-        "A11"
+        "A25", 
+        "A12"
       ], 
       "SOL": [
         "A01", 
@@ -300,7 +310,7 @@
     }, 
     "TR": {
       "XO reserved": "Spur", 
-      "class yard": "Yard", 
+      "class yard": "Interchange", 
       "industry": "Spur", 
       "interchange": "Interchange", 
       "staging": "Staging"

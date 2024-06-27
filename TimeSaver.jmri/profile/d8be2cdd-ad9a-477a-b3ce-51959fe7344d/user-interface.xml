@@ -42,11 +42,11 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
-        <window xmlns="" class="JMRI System Console" height="708.0" locX="1651.0" locY="677.0" width="879.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="813.0" locX="950.0" locY="421.0" width="1076.0"/>
-        <window xmlns="" class="PanelPro" height="286.0" locX="1925.0" locY="273.0" width="462.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="333.0" locX="0.0" locY="0.0" width="1336.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="PanelPro" height="286.0" locX="1940.0" locY="12.0" width="462.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="333.0" locX="0.0" locY="0.0" width="1336.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="813.0" locX="950.0" locY="421.0" width="1076.0"/>
+        <window xmlns="" class="JMRI System Console" height="1095.0" locX="1651.0" locY="290.0" width="879.0"/>
     </windowDetails>
 </auxiliary-configuration>
