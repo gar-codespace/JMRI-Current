@@ -42,7 +42,9 @@
       "Lumber"
     ], 
     "GPD": [
-      "Gravel"
+      "crate large", 
+      "Gravel", 
+      "Lumber"
     ], 
     "GPx": [
       "crate large", 
@@ -100,10 +102,10 @@
     "PRR", 
     "FGEX", 
     "M&P", 
-    "DL&W", 
     "NYC", 
-    "AT&SF", 
+    "DL&W", 
     "PL", 
+    "AT&SF", 
     "SP", 
     "P&R"
   ], 
@@ -134,7 +136,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "06/27/2024-08:05:26", 
+  "Extended_buildDate": "07/22/2024-12:19:12", 
   "Extended_divisions": [
     ""
   ], 
@@ -153,7 +155,7 @@
       "type": "class yard"
     }, 
     "1": {
-      "capacity": "4", 
+      "capacity": "5", 
       "label": "B", 
       "location": "Basin Street", 
       "track": "Bulk Material Wharf", 
@@ -202,7 +204,7 @@
       "type": "industry"
     }, 
     "8": {
-      "capacity": "25", 
+      "capacity": "21", 
       "label": "SY", 
       "location": "MUTT", 
       "track": "South Yard", 
@@ -408,6 +410,14 @@
             ""
           ], 
           [
+            "GPD", 
+            "S", 
+            "Lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
             "GPx", 
             "S", 
             "Lumber", 
@@ -473,6 +483,14 @@
           ], 
           [
             "FP4", 
+            "R", 
+            "crate large", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
             "R", 
             "crate large", 
             "", 
