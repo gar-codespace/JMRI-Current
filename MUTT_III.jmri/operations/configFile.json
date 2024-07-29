@@ -208,6 +208,10 @@
       [
         "2024.07.22.12.19.32", 
         "4th"
+      ], 
+      [
+        "2024.07.24.16.00.14", 
+        "5th"
       ]
     ], 
     "US": {}
@@ -216,13 +220,13 @@
     "LD": {
       "BD": "", 
       "EH": true, 
-      "JN": "", 
+      "JN": "Metropolitian Harbor Railroad\nMetropolitian Union Transfer Terminal\nWest Pier District", 
       "LN": "", 
-      "LO": "", 
-      "OR": "", 
+      "LO": "West Pier District", 
+      "OR": "Metropolitian Harbor Railroad", 
       "SC": "", 
-      "TR": "", 
-      "YR": ""
+      "TR": "Metropolitian Union Transfer Terminal", 
+      "YR": "1915"
     }, 
     "SV": true, 
     "US": {}

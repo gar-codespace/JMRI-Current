@@ -171,9 +171,9 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="1016.0" locX="931.0" locY="278.0" width="1307.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="1016.0" locX="64.0" locY="269.0" width="1307.0"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="751.0" locX="93.0" locY="302.0" width="937.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="751.0" locX="1073.0" locY="373.0" width="937.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="250.0" locX="515.0" locY="205.0" width="1276.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="601.0" locX="1248.0" locY="645.0" width="729.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.StagingEditFrame:Add Staging Track" height="616.0" locX="1432.0" locY="481.0" width="679.0"/>
