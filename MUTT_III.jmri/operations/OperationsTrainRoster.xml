@@ -2,7 +2,11 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
+<<<<<<< HEAD
   <!--Written by JMRI version 5.2+R760b98537f on Wed Aug 07 11:04:48 PDT 2024-->
+=======
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Aug 06 09:22:53 PDT 2024-->
+>>>>>>> 655ed3b967b81c4a5425ca889437196414a9d1c5
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +23,11 @@
     </switchlistCreator>
   </options>
   <trains>
+<<<<<<< HEAD
     <train id="1" name="Basin St Flyer" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR857" status="Terminated 8/07/2024 11:04" TerminationDate="8/07/2024 11:04" RequestedCars="28" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+=======
+    <train id="1" name="Basin St Flyer" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR857" status="Terminated 8/06/2024 09:22" TerminationDate="8/06/2024 09:22" RequestedCars="28" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+>>>>>>> 655ed3b967b81c4a5425ca889437196414a9d1c5
       <rowColor name="" resetRowColor="" />
       <route name="Basin St Flyer" id="1" />
       <types>
@@ -50,6 +58,5 @@
     <schedule id="6" name="Friday" trainIds="," />
     <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
-  <automationOptions automationStartupId="" />
   <automations />
 </operations-config>
