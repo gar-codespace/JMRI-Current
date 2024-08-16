@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Aug 14 19:57:18 PDT 2024-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Aug 16 12:21:17 PDT 2024-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Basin St Flyer" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR857" status="Terminated 8/14/2024 19:57" TerminationDate="8/14/2024 19:57" RequestedCars="28" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="Basin St Flyer" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR857" status="Terminated 8/16/2024 12:21" TerminationDate="8/16/2024 12:21" RequestedCars="28" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Basin St Flyer" id="1" />
       <types>
@@ -50,6 +50,5 @@
     <schedule id="6" name="Friday" trainIds="," />
     <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
-  <automationOptions automationStartupId="" />
   <automations />
 </operations-config>
