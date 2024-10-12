@@ -63,7 +63,6 @@
       "Can Oysters", 
       "Break Bulk", 
       "Coffee", 
-      "Tea", 
       "Foodstuffs", 
       "Drygoods", 
       "Merchandise"
@@ -72,7 +71,6 @@
       "Can Oysters", 
       "Break Bulk", 
       "Coffee", 
-      "Tea", 
       "Foodstuffs", 
       "Drygoods", 
       "Merchandise"
@@ -98,12 +96,13 @@
     "UTLX", 
     "C&O", 
     "ER", 
+    "GPx", 
     "CS", 
     "PRR", 
     "FGEX", 
     "M&P", 
-    "NYC", 
     "DL&W", 
+    "NYC", 
     "PL", 
     "AT&SF", 
     "SP", 
@@ -136,7 +135,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "08/28/2024-18:51:20", 
+  "Extended_buildDate": "10/12/2024-14:04:18", 
   "Extended_divisions": [
     ""
   ], 
@@ -212,9 +211,9 @@
     }, 
     "9": {
       "capacity": "1", 
-      "label": "T", 
+      "label": "F", 
       "location": "Basin Street", 
-      "track": "Tea", 
+      "track": "Fuel Oil", 
       "type": "industry"
     }
   }, 
@@ -334,21 +333,13 @@
     }, 
     "2": {
       "a-location": "Basin Street", 
-      "b-track": "Tea", 
+      "b-track": "Fuel Oil", 
       "c-schedule": {
-        "T": [
+        "F": [
           [
-            "XP3", 
+            "TPO", 
             "S", 
-            "Tea", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XP4", 
-            "S", 
-            "Tea", 
+            "Fuel Oil", 
             "", 
             "", 
             ""
@@ -426,14 +417,6 @@
             ""
           ], 
           [
-            "TPO", 
-            "S", 
-            "Fuel Oil", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
             "XP3", 
             "S", 
             "Break Bulk", 
@@ -501,14 +484,6 @@
             "GPx", 
             "R", 
             "crate large", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "TPO", 
-            "S", 
-            "Fuel Oil", 
             "", 
             "", 
             ""
