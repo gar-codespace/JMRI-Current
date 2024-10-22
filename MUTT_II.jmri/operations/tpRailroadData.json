@@ -60,7 +60,6 @@
     "XP3": [
       "Can Oysters", 
       "Break Bulk", 
-      "Tea", 
       "Foodstuffs", 
       "Coffee Sacks"
     ], 
@@ -86,8 +85,8 @@
   "CarRoster_roads": [
     "NYNH&H", 
     "WJ&S", 
-    "ACL", 
     "LV", 
+    "ACL", 
     "UTLX", 
     "CS", 
     "PRR", 
@@ -125,7 +124,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "08/01/2024-10:09:26", 
+  "Extended_buildDate": "10/22/2024-07:47:47", 
   "Extended_divisions": [
     ""
   ], 
@@ -171,17 +170,10 @@
       "track": "Water St Wharf", 
       "type": "industry"
     }, 
-    "5": {
-      "capacity": "1", 
-      "label": "T", 
-      "location": "Basin St", 
-      "track": "Tea", 
-      "type": "industry"
-    }, 
     "6": {
-      "capacity": "14", 
-      "label": "WY", 
-      "location": "West Yard", 
+      "capacity": "19", 
+      "label": "WL", 
+      "location": "Way Line", 
       "track": "Basin Street", 
       "type": "staging"
     }, 
@@ -198,6 +190,13 @@
       "location": "Basin St", 
       "track": "Mother Schuckers", 
       "type": "industry"
+    }, 
+    "9": {
+      "capacity": "1", 
+      "label": "F", 
+      "location": "Basin St", 
+      "track": "Heating Oil Depot", 
+      "type": "industry"
     }
   }, 
   "LocationRoster_locationIds": [
@@ -208,12 +207,12 @@
     "4", 
     "8", 
     "2", 
-    "5", 
-    "7"
+    "7", 
+    "9"
   ], 
   "LocationRoster_locations": [
+    "Way Line", 
     "Basin St", 
-    "West Yard", 
     "Unreported"
   ], 
   "LocationRoster_spurs": {
@@ -311,14 +310,6 @@
             ""
           ], 
           [
-            "TPO", 
-            "S", 
-            "Heating Oil", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
             "XP3", 
             "S", 
             "Break Bulk", 
@@ -347,13 +338,13 @@
     }, 
     "14": {
       "a-location": "Basin St", 
-      "b-track": "Tea", 
+      "b-track": "Heating Oil Depot", 
       "c-schedule": {
-        "T": [
+        "F": [
           [
-            "XP3", 
+            "TPO", 
             "S", 
-            "Tea", 
+            "Heating Oil", 
             "", 
             "", 
             ""
