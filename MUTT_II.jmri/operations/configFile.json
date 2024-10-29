@@ -194,36 +194,8 @@
         ""
       ], 
       [
-        "2023.11.27.13.04.19", 
-        "initial"
-      ], 
-      [
-        "2023.12.02.08.16.31", 
-        "second"
-      ], 
-      [
-        "2023.12.02.08.42.27", 
-        "third"
-      ], 
-      [
-        "2023.12.07.11.26.36", 
-        "fourth"
-      ], 
-      [
-        "2024.06.12.15.18.06", 
-        "5th"
-      ], 
-      [
-        "2024.10.22.07.05.41", 
-        "6th"
-      ], 
-      [
-        "2024.10.22.07.48.48", 
-        "7th"
-      ], 
-      [
-        "2024.10.25.07.56.13", 
-        "8th"
+        "2024.10.29.07.59.24", 
+        "Initial"
       ]
     ], 
     "US": {}
@@ -232,13 +204,13 @@
     "LD": {
       "BD": "", 
       "EH": true, 
-      "JN": "", 
+      "JN": "Metropolitan Harbor Railroad\nMetropolitan Union Transfer Terminal\nWest Pier District", 
       "LN": "", 
-      "LO": "", 
-      "OR": "", 
+      "LO": "West Pier District", 
+      "OR": "Metropolitan Harbor Railroad", 
       "SC": "", 
-      "TR": "", 
-      "YR": ""
+      "TR": "Metropolitan Union Transfer Terminal", 
+      "YR": "1915"
     }, 
     "SV": true, 
     "US": {}
