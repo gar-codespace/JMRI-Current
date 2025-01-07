@@ -2,7 +2,11 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
+<<<<<<< HEAD
   <!--Written by JMRI version 5.2+R760b98537f on Tue Jan 07 08:59:00 PST 2025-->
+=======
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jan 07 08:45:57 PST 2025-->
+>>>>>>> c64a816c88ddf72e263a0b3c0733a58916f4d373
   <operations>
     <setup comment="" />
     <settings mainMenu="true" closeOnSave="true" autoSave="false" autoBackup="false" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="true" valueLabel="Value" showRfid="true" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1915" />
