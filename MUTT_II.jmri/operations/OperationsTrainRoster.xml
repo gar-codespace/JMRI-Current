@@ -2,11 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-<<<<<<< HEAD
-  <!--Written by JMRI version 5.2+R760b98537f on Tue Jan 07 09:10:42 PST 2025-->
-=======
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jan 07 08:46:05 PST 2025-->
->>>>>>> c64a816c88ddf72e263a0b3c0733a58916f4d373
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Jan 02 12:14:17 PST 2025-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -23,11 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-<<<<<<< HEAD
-    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="4s1" terminationTrack="4s1" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR345" status="Terminated 1/07/2025 09:10" TerminationDate="1/07/2025 09:10" RequestedCars="27" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
-=======
-    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="4s1" terminationTrack="4s1" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR345" status="Terminated 1/07/2025 08:46" TerminationDate="1/07/2025 08:46" RequestedCars="27" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
->>>>>>> c64a816c88ddf72e263a0b3c0733a58916f4d373
+    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="4s1" terminationTrack="4s1" builtStartYear="" builtEndYear="" numberEngines="1" engineRoad="" engineModel="" requires="1" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" leadEngine="PRR345" status="Terminated 1/02/2025 12:14" TerminationDate="1/02/2025 12:14" RequestedCars="27" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Basin St Switcher" id="1" />
       <types>
@@ -50,13 +42,14 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="" />
-    <schedule id="2" name="Monday" trainIds="" />
-    <schedule id="3" name="Tuesday" trainIds="" />
-    <schedule id="4" name="Wednesday" trainIds="" />
-    <schedule id="5" name="Thursday" trainIds="" />
-    <schedule id="6" name="Friday" trainIds="" />
-    <schedule id="7" name="Saturday" trainIds="" />
+    <schedule id="1" name="Sunday" trainIds="," />
+    <schedule id="2" name="Monday" trainIds="," />
+    <schedule id="3" name="Tuesday" trainIds="," />
+    <schedule id="4" name="Wednesday" trainIds="," />
+    <schedule id="5" name="Thursday" trainIds="," />
+    <schedule id="6" name="Friday" trainIds="," />
+    <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
+  <automationOptions automationStartupId="" />
   <automations />
 </operations-config>
