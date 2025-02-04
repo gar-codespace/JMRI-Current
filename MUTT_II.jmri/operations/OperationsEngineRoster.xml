@@ -2,7 +2,11 @@
 <?xml-stylesheet href="/xml/XSLT/operations-engines.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-engines.dtd">
 <operations-config>
+<<<<<<< HEAD
   <!--Written by JMRI version 4.26+R381c8dfc32 on Sun Feb 02 09:45:29 PST 2025-->
+=======
+  <!--Written by JMRI version 5.2+R760b98537f on Thu Jan 30 09:04:29 PST 2025-->
+>>>>>>> 0f66508e6e17891829fc68c059d470f798c009f6
   <models>
     <model name="A4" />
   </models>
@@ -14,6 +18,10 @@
   </lengths>
   <newConsists />
   <engines>
+<<<<<<< HEAD
     <engine id="PRR345" roadName="PRR" roadNumber="345" type="ESS" length="40" color="Generic" locationId="4" secLocationId="4s1" lastRouteId="1" moves="93" date="02/02/2025 09:45:29" selected="false" lastLocationId="4" value="6000" model="A4" hp="" bUnit="false" />
+=======
+    <engine id="PRR345" roadName="PRR" roadNumber="345" type="ESS" length="40" color="Generic" locationId="4" secLocationId="4s1" lastRouteId="1" moves="91" date="01/30/2025 09:04:29" selected="false" lastLocationId="4" value="6000" model="A4" hp="" bUnit="false" />
+>>>>>>> 0f66508e6e17891829fc68c059d470f798c009f6
   </engines>
 </operations-config>
