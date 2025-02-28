@@ -76,9 +76,9 @@
     ], 
     "XPV": [
       "Produce", 
-      "Can Oysters", 
       "Break Bulk", 
-      "Foodstuffs"
+      "Foodstuffs", 
+      "Live Oysters"
     ]
   }, 
   "CarRoster_newKernels": [
@@ -93,8 +93,8 @@
     "CS", 
     "PRR", 
     "FGEX", 
-    "NYC", 
     "DL&W", 
+    "NYC", 
     "PL", 
     "B&A", 
     "CNJ"
@@ -126,7 +126,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "02/19/2025-16:00:40", 
+  "Extended_buildDate": "02/28/2025-08:06:24", 
   "Extended_divisions": [
     ""
   ], 
@@ -159,10 +159,17 @@
       "type": "industry"
     }, 
     "2": {
-      "capacity": "8", 
+      "capacity": "6", 
       "label": "M", 
       "location": "Basin St", 
       "track": "Water Street Market", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "3", 
+      "label": "O", 
+      "location": "Basin St", 
+      "track": "Mother Schuckers Oyster", 
       "type": "industry"
     }, 
     "4": {
@@ -210,7 +217,8 @@
     "7", 
     "5", 
     "4", 
-    "11"
+    "11", 
+    "3"
   ], 
   "LocationRoster_locations": [
     "Way Line", 
@@ -218,6 +226,38 @@
     "Unreported"
   ], 
   "LocationRoster_spurs": {
+    "11": {
+      "a-location": "Basin St", 
+      "b-track": "Mother Schuckers Oyster", 
+      "c-schedule": {
+        "O": [
+          [
+            "Bdr", 
+            "S", 
+            "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RP3", 
+            "S", 
+            "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
     "13": {
       "a-location": "Basin St", 
       "b-track": "4th Street Pier", 
@@ -344,25 +384,9 @@
             ""
           ], 
           [
-            "Bdr", 
-            "S", 
-            "Live Oysters", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
             "RP3", 
             "R", 
             "Produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "RP3", 
-            "S", 
-            "Live Oysters", 
             "", 
             "", 
             ""
@@ -435,14 +459,6 @@
             "XPV", 
             "R", 
             "Produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XPV", 
-            "S", 
-            "Can Oysters", 
             "", 
             "", 
             ""
