@@ -1,0 +1,524 @@
+{
+  "AAR_Caboose": [
+    "NPD"
+  ], 
+  "AAR_Engine": [
+    "ESS"
+  ], 
+  "AAR_Express": [
+    "Bd", 
+    "Bdr"
+  ], 
+  "AAR_MOW": [
+    "M", 
+    "MWB", 
+    "MWC", 
+    "MWD", 
+    "MWG", 
+    "MWF", 
+    "MWK", 
+    "MWR", 
+    "MWX"
+  ], 
+  "AAR_Passenger": [
+    "P"
+  ], 
+  "CarRoster_loads": {
+    "Bd": [
+      "Express"
+    ], 
+    "Bdr": [
+      "Produce", 
+      "Live Oysters"
+    ], 
+    "FGI": [], 
+    "FP3": [
+      "lumber", 
+      "tank"
+    ], 
+    "FP4": [
+      "lumber", 
+      "boiler2"
+    ], 
+    "GPD": [
+      "lumber", 
+      "barrels", 
+      "Gravel", 
+      "tank"
+    ], 
+    "GPx": [
+      "lumber", 
+      "barrels", 
+      "boiler2", 
+      "Gravel"
+    ], 
+    "RP3": [
+      "Produce", 
+      "Live Oysters"
+    ], 
+    "TPO": [
+      "Petroleum"
+    ], 
+    "XP3": [
+      "Break Bulk", 
+      "Foodstuffs", 
+      "Coffee Sacks"
+    ], 
+    "XP4": [
+      "Break Bulk", 
+      "Foodstuffs", 
+      "Coffee Sacks"
+    ], 
+    "XPP": [
+      "Produce"
+    ], 
+    "XPV": [
+      "Produce", 
+      "Break Bulk", 
+      "Foodstuffs", 
+      "Live Oysters"
+    ]
+  }, 
+  "CarRoster_newKernels": [
+    ""
+  ], 
+  "CarRoster_roads": [
+    "NYNH&H", 
+    "WJ&S", 
+    "LV", 
+    "ACL", 
+    "UTLX", 
+    "CS", 
+    "PRR", 
+    "FGEX", 
+    "DL&W", 
+    "NYC", 
+    "PL", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "CarRoster_types": [
+    "Bd", 
+    "FP3", 
+    "FGI", 
+    "FP4", 
+    "GPx", 
+    "Bdr", 
+    "TPO", 
+    "RP3", 
+    "XPP", 
+    "XP3", 
+    "GPD", 
+    "XP4", 
+    "XPV"
+  ], 
+  "EngineRoster_models": [
+    [
+      "A4", 
+      "ESS"
+    ]
+  ], 
+  "EngineRoster_newConsists": [
+    ""
+  ], 
+  "EngineRoster_types": [
+    "ESS"
+  ], 
+  "Extended_buildDate": "03/03/2025-23:01:06", 
+  "Extended_divisions": [
+    ""
+  ], 
+  "Extended_layoutName": "MUTT IIb", 
+  "Extended_location": "West Pier District", 
+  "Extended_operatingRoad": "Metropolitan Harbor Railroad", 
+  "Extended_scale": "HO", 
+  "Extended_territory": "Metropolitan Union Transfer Terminal", 
+  "Extended_year": "1915", 
+  "LocationRoster_location": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "12", 
+      "label": "CF", 
+      "location": "4th Street", 
+      "track": "Car Float", 
+      "type": "staging"
+    }, 
+    "2": {
+      "capacity": "6", 
+      "label": "M", 
+      "location": "Basin St", 
+      "track": "Basin Street Market", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "3", 
+      "label": "O", 
+      "location": "Basin St", 
+      "track": "Mother Schuckers Oyster", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "4", 
+      "label": "A", 
+      "location": "Basin St", 
+      "track": "Aggrigates", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "6", 
+      "label": "T", 
+      "location": "Basin St", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "7": {
+      "capacity": "2", 
+      "label": "X", 
+      "location": "Basin St", 
+      "track": "Express", 
+      "type": "industry"
+    }, 
+    "8": {
+      "capacity": "1", 
+      "label": "P", 
+      "location": "Basin St", 
+      "track": "Petroleum", 
+      "type": "industry"
+    }, 
+    "9": {
+      "capacity": "2", 
+      "label": "L", 
+      "location": "Basin St", 
+      "track": "Lumber", 
+      "type": "industry"
+    }
+  }, 
+  "LocationRoster_locationIds": [
+    "00", 
+    "6", 
+    "1", 
+    "8", 
+    "2", 
+    "7", 
+    "4", 
+    "3", 
+    "9"
+  ], 
+  "LocationRoster_locations": [
+    "Basin St", 
+    "4th Street", 
+    "Unreported"
+  ], 
+  "LocationRoster_spurs": {
+    "11": {
+      "a-location": "Basin St", 
+      "b-track": "Mother Schuckers Oyster", 
+      "c-schedule": {
+        "O": [
+          [
+            "Bdr", 
+            "S", 
+            "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RP3", 
+            "S", 
+            "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "14": {
+      "a-location": "Basin St", 
+      "b-track": "Petroleum", 
+      "c-schedule": {
+        "P": [
+          [
+            "TPO", 
+            "R", 
+            "Petroleum", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "15": {
+      "a-location": "Basin St", 
+      "b-track": "Express", 
+      "c-schedule": {
+        "X": [
+          [
+            "Bd", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Bd", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "22": {
+      "a-location": "Basin St", 
+      "b-track": "Basin Street Market", 
+      "c-schedule": {
+        "M": [
+          [
+            "Bdr", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RP3", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "R", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "R", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPP", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "26": {
+      "a-location": "Basin St", 
+      "b-track": "Team Tracks", 
+      "c-schedule": {
+        "T": [
+          [
+            "FP3", 
+            "R", 
+            "tank", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "boiler2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "R", 
+            "tank", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "S", 
+            "barrels", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "boiler2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "S", 
+            "barrels", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP4", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "Basin St", 
+      "b-track": "Aggrigates", 
+      "c-schedule": {
+        "A": [
+          [
+            "GPD", 
+            "S", 
+            "Gravel", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "S", 
+            "Gravel", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "9": {
+      "a-location": "Basin St", 
+      "b-track": "Lumber", 
+      "c-schedule": {
+        "L": [
+          [
+            "FP3", 
+            "S", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "S", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPD", 
+            "S", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "S", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }
+}

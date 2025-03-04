@@ -1,0 +1,35 @@
+PRR 6544;Bd;Bd;Basin St;Express;Empty;;19
+NYNH&H 1367;PRR Gr;GPx;4th Street;Car Float;Empty;;61
+CS 0355;PRR Fm;FP4;Basin St;Team Tracks;Empty;;13
+WJ&S 2004;PRR Xl;XP3;Basin St;Team Tracks;Empty;;42
+PRR 5525;PRR Xl;XP3;Basin St;Team Tracks;Empty;;20
+PRR 7152;Bd;Bd;4th Street;Car Float;Empty;;24
+NYNH&H 6274;PRR Gr;GPx;4th Street;Car Float;Empty;;27
+DL&W 8059;PRR Fm;FP4;Basin St;Lumber;Empty;;54
+NYC 4232;PRR Fk;FP3;Basin St;Lumber;Empty;;12
+FGEX 0326;PRR Rf;RP3;4th Street;Car Float;Empty;;31
+PRR 4881;PRR Xg;XP3;4th Street;Car Float;Empty;;18
+FGEX 8058;PRR Rf;RP3;Basin St;Mother Schuckers Oyster;Empty;;28
+FGEX 1040;PRR Rf;RP3;Basin St;Mother Schuckers Oyster;Empty;;57
+CS 2467;PRR Xl;XP3;Basin St;Team Tracks;Empty;;59
+DL&W 2298;PRR Xl;XP3;Basin St;Team Tracks;Empty;;4
+CNJ 7069;PRR Gr;GPx;Basin St;Aggrigates;Empty;;17
+PL 8124;PRR Gi;GPD;Basin St;Aggrigates;Empty;;16
+B&A 2837;PRR Gi;GPD;Basin St;Aggrigates;Empty;;15
+PRR 3755;Bdr;Bdr;Basin St;Mother Schuckers Oyster;Empty;;6
+UTLX 5968;Union Tank;TPO;4th Street;Car Float;Empty;;14
+PRR 345;A4;ESS;Unreported;~;unloadable;;62
+PRR 829;Idler;FGI;Unreported;~;Empty;;1
+PL 5513;PRR Xg;XP3;Basin St;Basin Street Market;Empty;;47
+PRR 3607;PRR X23;XP4;Basin St;Basin Street Market;Empty;;39
+NYC 7582;PRR Xl;XP3;Basin St;Basin Street Market;Empty;;46
+PRR 7302;PRR Xl;XP3;Basin St;Basin Street Market;Empty;;43
+PL 8900;PRR Xl Vent;XPV;Basin St;Basin Street Market;Empty;;22
+FGEX 4200;PRR Rf;RP3;Basin St;Basin Street Market;Empty;;25
+FGEX 1596;PRR Rf;RP3;Basin St;Basin Street Market;Empty;;26
+LV 6584;PRR Xg;XP3;4th Street;Car Float;Empty;;36
+B&A 7695;PRR Xl;XP3;4th Street;Car Float;Empty;;3
+CS 3851;PRR X23;XP4;4th Street;Car Float;Empty;;21
+FGEX 1558;PRR Rf;RP3;4th Street;Car Float;Empty;;56
+ACL 2474;PRR Fk;FP3;4th Street;Car Float;Empty;;48
+PRR 1719;PRR Xm;XPP;4th Street;Car Float;Empty;;2
