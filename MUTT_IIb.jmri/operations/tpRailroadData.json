@@ -60,13 +60,14 @@
       "Petroleum"
     ], 
     "XP3": [
-      "Break Bulk", 
+      "Canned Oysters", 
       "Foodstuffs", 
+      "Drygoods", 
       "Coffee Sacks"
     ], 
     "XP4": [
-      "Break Bulk", 
       "Foodstuffs", 
+      "Drygoods", 
       "Coffee Sacks"
     ], 
     "XPP": [
@@ -74,8 +75,8 @@
     ], 
     "XPV": [
       "Produce", 
-      "Break Bulk", 
       "Foodstuffs", 
+      "Drygoods", 
       "Live Oysters"
     ]
   }, 
@@ -91,8 +92,6 @@
     "CS", 
     "PRR", 
     "FGEX", 
-    "DL&W", 
-    "NYC", 
     "PL", 
     "B&A", 
     "CNJ"
@@ -124,7 +123,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "03/03/2025-23:01:06", 
+  "Extended_buildDate": "03/08/2025-08:03:37", 
   "Extended_divisions": [
     ""
   ], 
@@ -143,7 +142,7 @@
       "type": "class yard"
     }, 
     "1": {
-      "capacity": "12", 
+      "capacity": "11", 
       "label": "CF", 
       "location": "4th Street", 
       "track": "Car Float", 
@@ -192,7 +191,7 @@
       "type": "industry"
     }, 
     "9": {
-      "capacity": "2", 
+      "capacity": "3", 
       "label": "L", 
       "location": "Basin St", 
       "track": "Lumber", 
@@ -233,6 +232,22 @@
             "RP3", 
             "S", 
             "Live Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Canned Oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "S", 
+            "Canned Oysters", 
             "", 
             "", 
             ""
@@ -432,7 +447,7 @@
           [
             "XP3", 
             "S", 
-            "Break Bulk", 
+            "Drygoods", 
             "", 
             "", 
             ""
@@ -440,7 +455,7 @@
           [
             "XP4", 
             "S", 
-            "Break Bulk", 
+            "Drygoods", 
             "", 
             "", 
             ""
@@ -448,7 +463,7 @@
           [
             "XPV", 
             "S", 
-            "Break Bulk", 
+            "Drygoods", 
             "", 
             "", 
             ""

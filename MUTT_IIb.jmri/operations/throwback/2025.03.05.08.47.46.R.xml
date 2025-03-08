@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-routes.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-routes.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Fri Mar 07 16:40:20 PST 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed Mar 05 08:38:03 PST 2025-->
   <routes>
     <route id="1" name="Basin St Switcher" comment="">
       <location id="1r17" name="4th Street" locationId="2" sequenceId="2" trainDirection="1" maxTrainLength="500" grade="0.0" maxCarMoves="10" randomControl="Off" pickups="yes" drops="no" wait="0" departTime="" order="0" trainIconX="0" trainIconY="0" commentColor="black" comment="" />
