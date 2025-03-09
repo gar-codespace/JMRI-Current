@@ -204,13 +204,13 @@
     "LD": {
       "BD": "", 
       "EH": true, 
-      "JN": "Metropolitan Harbor Railroad\nMetropolitan Union Transfer Terminal\nWest Pier District", 
+      "JN": "", 
       "LN": "", 
-      "LO": "West Pier District", 
-      "OR": "Metropolitan Harbor Railroad", 
+      "LO": "", 
+      "OR": "", 
       "SC": "", 
-      "TR": "Metropolitan Union Transfer Terminal", 
-      "YR": "1915"
+      "TR": "", 
+      "YR": ""
     }, 
     "SV": true, 
     "US": {}

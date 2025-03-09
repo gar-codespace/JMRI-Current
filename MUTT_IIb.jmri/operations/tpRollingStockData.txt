@@ -1,30 +1,30 @@
-LV 3438;PRR Xl;XP3;Basin St;Team Tracks;Empty;;4
-PRR 5712;PRR Xl;XP3;Basin St;Team Tracks;Empty;;5
-B&A 1874;PRR Fm;FP4;Basin St;Team Tracks;Empty;;54
+UTLX 5968;Union Tank;TPO;Basin St;Petroleum;Empty;;14
+PL 8900;PRR Xl Vent;XPV;Basin St;Team Tracks;Empty;;22
+PRR 4881;PRR Xg;XP3;Basin St;Team Tracks;Empty;;18
+B&A 7695;PRR Xl;XP3;Basin St;Team Tracks;Empty;;3
 PRR 7152;Bd;Bd;Basin St;Express;Empty;;24
-PRR 6544;Bd;Bd;Basin St;Express;Empty;;19
-PRR 7302;PRR Xl;XP3;Basin St;Basin Street Market;Empty;;43
+FGEX 4200;PRR Rf;RP3;Basin St;Basin Street Market;Produce;;25
 FGEX 1596;PRR Rf;RP3;Basin St;Basin Street Market;Empty;;26
 PRR 1719;PRR Xm;XPP;Basin St;Basin Street Market;Empty;;2
 FGEX 0326;PRR Rf;RP3;Basin St;Basin Street Market;Empty;;31
-PRR 3755;Bdr;Bdr;Basin St;Basin Street Market;Empty;;6
-PRR 5525;PRR Xl;XP3;4th Street;Car Float;Empty;;20
-FGEX 1558;PRR Rf;RP3;4th Street;Car Float;Empty;;56
-B&A 2837;PRR Gi;GPD;4th Street;Car Float;Empty;;15
-NYNH&H 6274;PRR Gr;GPx;4th Street;Car Float;Empty;;27
-PL 8124;PRR Gi;GPD;4th Street;Car Float;Empty;;16
+PRR 5525;PRR Xl;XP3;Basin St;Team Tracks;Empty;;20
+CS 3851;PRR X23;XP4;Basin St;Team Tracks;Empty;;21
 NYNH&H 1367;PRR Gr;GPx;Basin St;Aggrigates;Empty;;61
-WJ&S 2004;PRR Xl;XP3;Basin St;Mother Schuckers Oyster;Empty;;42
-FGEX 8058;PRR Rf;RP3;Basin St;Mother Schuckers Oyster;Empty;;28
+PL 8124;PRR Gi;GPD;Basin St;Aggrigates;Empty;;16
 FGEX 1040;PRR Rf;RP3;Basin St;Mother Schuckers Oyster;Empty;;57
-CS 0355;PRR Fm;FP4;Basin St;Lumber;Empty;;13
-ACL 2474;PRR Fk;FP3;Basin St;Lumber;Empty;;48
-FGEX 4200;PRR Rf;RP3;4th Street;Car Float;Empty;;25
-PL 8900;PRR Xl Vent;XPV;4th Street;Car Float;Empty;;22
-PRR 4881;PRR Xg;XP3;4th Street;Car Float;Empty;;18
-B&A 7695;PRR Xl;XP3;4th Street;Car Float;Empty;;3
-CS 3851;PRR X23;XP4;4th Street;Car Float;Empty;;21
-CNJ 7069;PRR Gr;GPx;Basin St;Aggrigates;Empty;;17
+PRR 3755;Bdr;Bdr;Basin St;Mother Schuckers Oyster;Empty;;6
+FGEX 1558;PRR Rf;RP3;Basin St;Mother Schuckers Oyster;Empty;;56
+B&A 2837;PRR Gi;GPD;Basin St;Lumber;Empty;;15
+NYNH&H 6274;PRR Gr;GPx;Basin St;Lumber;Empty;;27
+ACL 2474;PRR Fk;FP3;4th Street;Car Float;lumber;;48
+WJ&S 2004;PRR Xl;XP3;4th Street;Car Float;Canned Oysters;;42
+FGEX 8058;PRR Rf;RP3;4th Street;Car Float;Live Oysters;;28
+PRR 7302;PRR Xl;XP3;4th Street;Car Float;Coffee Sacks;;43
+CNJ 7069;PRR Gr;GPx;4th Street;Car Float;Gravel;;17
+CS 0355;PRR Fm;FP4;4th Street;Car Float;lumber;;13
+PRR 6544;Bd;Bd;4th Street;Car Float;Express;;19
+LV 3438;PRR Xl;XP3;4th Street;Car Float;Drygoods;;4
+PRR 5712;PRR Xl;XP3;4th Street;Car Float;Drygoods;;5
+B&A 1874;PRR Fm;FP4;4th Street;Car Float;Empty;;54
 PRR 345;A4;ESS;Unreported;~;unloadable;;62
 PRR 829;Idler;FGI;Unreported;~;Empty;;1
-UTLX 5968;Union Tank;TPO;Basin St;Petroleum;Empty;;14

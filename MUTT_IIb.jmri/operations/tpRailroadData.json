@@ -86,8 +86,8 @@
   "CarRoster_roads": [
     "NYNH&H", 
     "WJ&S", 
-    "LV", 
     "ACL", 
+    "LV", 
     "UTLX", 
     "CS", 
     "PRR", 
@@ -123,7 +123,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "03/08/2025-08:03:37", 
+  "Extended_buildDate": "03/08/2025-10:38:15", 
   "Extended_divisions": [
     ""
   ], 
@@ -142,7 +142,7 @@
       "type": "class yard"
     }, 
     "1": {
-      "capacity": "11", 
+      "capacity": "10", 
       "label": "CF", 
       "location": "4th Street", 
       "track": "Car Float", 
@@ -502,7 +502,7 @@
         "L": [
           [
             "FP3", 
-            "S", 
+            "R", 
             "lumber", 
             "", 
             "", 
@@ -510,7 +510,7 @@
           ], 
           [
             "FP4", 
-            "S", 
+            "R", 
             "lumber", 
             "", 
             "", 
@@ -518,7 +518,7 @@
           ], 
           [
             "GPD", 
-            "S", 
+            "R", 
             "lumber", 
             "", 
             "", 
@@ -526,7 +526,7 @@
           ], 
           [
             "GPx", 
-            "S", 
+            "R", 
             "lumber", 
             "", 
             "", 
