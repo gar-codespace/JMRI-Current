@@ -56,6 +56,24 @@
             </columns>
             <sortOrder/>
         </table>
+        <table xmlns="" name="apps.gui3.dp3.DecoderPro3Window:DecoderPro:roster">
+            <columns>
+                <column hidden="false" name="Owner" order="8" width="52"/>
+                <column hidden="false" name="Manufacturer" order="6" width="85"/>
+                <column hidden="false" name="Model" order="7" width="48"/>
+                <column hidden="false" name="ID" order="0" width="67"/>
+                <column hidden="false" name="Icon" order="2" width="41"/>
+                <column hidden="false" name="Road Number" order="5" width="85"/>
+                <column hidden="false" name="Date Modified" order="9" width="86"/>
+                <column hidden="false" name="Decoder Model" order="3" width="127"/>
+                <column hidden="true" name="Protocol" order="10" width="59"/>
+                <column hidden="false" name="Road Name" order="4" width="75"/>
+                <column hidden="false" name="DCC Address" order="1" width="83"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
         <table xmlns="" name="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame:table">
             <columns>
                 <column hidden="false" name="Delete" order="16" width="70"/>
@@ -120,9 +138,6 @@
                 <column hidden="false" name="Location" order="1" width="150"/>
             </columns>
         </table>
-        <table xmlns="" name="Location:table">
-            <columns/>
-        </table>
         <table xmlns="" name="jmri.jmrit.operations.locations.LocationsTableFrame:Locations:table">
             <columns>
                 <column hidden="false" name="Cars" order="7" width="60"/>
@@ -145,6 +160,11 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="813.0" locX="950.0" locY="421.0" width="1076.0"/>
+        <window xmlns="" class="JMRI System Console" height="1095.0" locX="1651.0" locY="290.0" width="879.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="333.0" locX="0.0" locY="0.0" width="1336.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="838.0" locY="99.0" width="729.0"/>
+        <window xmlns="" class="Script Output" height="294.0" locX="1109.0" locY="1036.0" width="439.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="0.0" locY="0.0" width="1024.0">
             <properties>
                 <property>
@@ -153,7 +173,13 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="264.0" locY="707.0" width="1024.0">
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsSetFrame:Set Car" height="640.0" locX="62.0" locY="62.0" width="500.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="659.0" locX="31.0" locY="31.0" width="500.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="913.0" locX="1404.0" locY="353.0" width="1097.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:TrakMobile" height="1027.0" locX="619.0" locY="204.0" width="1380.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="537.0" locX="1133.0" locY="98.0" width="1223.0"/>
+        <window xmlns="" class="Create New Loco" height="715.0" locX="511.0" locY="408.0" width="470.0"/>
+        <window xmlns="" class="apps.gui3.dp3.DecoderPro3Window:DecoderPro" height="600.0" locX="779.0" locY="485.0" width="1024.0">
             <properties>
                 <property>
                     <key>selectedProgrammer</key>
@@ -162,22 +188,12 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="626.0" locX="62.0" locY="62.0" width="1364.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="838.0" locY="99.0" width="729.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="659.0" locX="31.0" locY="31.0" width="500.0"/>
-        <window xmlns="" class="apps.AppsLaunchFrame:PanelPro" height="263.0" locX="1049.0" locY="588.0" width="462.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="913.0" locX="1404.0" locY="353.0" width="1097.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="333.0" locX="0.0" locY="0.0" width="1336.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="813.0" locX="950.0" locY="421.0" width="1076.0"/>
-        <window xmlns="" class="Script Output" height="294.0" locX="1109.0" locY="1036.0" width="439.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="Create New Loco" height="715.0" locX="511.0" locY="408.0" width="470.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="634.0" locX="62.0" locY="62.0" width="1183.0"/>
         <window xmlns="" class="PanelPro" height="286.0" locX="1940.0" locY="12.0" width="462.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="31.0" locY="31.0" width="516.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="537.0" locX="1133.0" locY="98.0" width="1223.0"/>
-        <window xmlns="" class="JMRI System Console" height="1095.0" locX="1651.0" locY="290.0" width="879.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsSetFrame:Set Car" height="640.0" locX="62.0" locY="62.0" width="500.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
+        <window xmlns="" class="apps.AppsLaunchFrame:PanelPro" height="263.0" locX="1049.0" locY="588.0" width="462.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="634.0" locX="62.0" locY="62.0" width="1183.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="615.0" locX="924.0" locY="67.0" width="1307.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="31.0" locY="31.0" width="516.0"/>
     </windowDetails>
 </auxiliary-configuration>
