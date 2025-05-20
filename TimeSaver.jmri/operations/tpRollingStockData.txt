@@ -1,8 +1,8 @@
 NYC 0883;PRR Xg;XP3;TS;B;Load;;5
-LV 5776;PRR Xg;XP3;TS;C;Load;;1
-CS 2851;PRR Xg;XP3;TS;C;Load;;2
-PRR 260;A4;ESS;TS;A;unloadable;;4
-SP 4427;PRR Xg;XP3;TS;E;Load;;3
+LV 5776;PRR Xg;XP3;TS;E;Load;;1
+PRR 260;A4;ESS;Unreported;~;unloadable;;4
+SP 4427;PRR Xg;XP3;TS;A;Load;;3
+B&A 4582;PRR Xg;XP3;TS;A;Load;;6
 WJ&S 5544;PRR Xg;XP3;Unreported;~;Empty;;7
 AT&SF 0077;PRR Xg;XP3;Unreported;~;Empty;;8
-B&A 4582;PRR Xg;XP3;TS;D;Load;;6
+CS 2851;PRR Xg;XP3;TS;D;Load;;2

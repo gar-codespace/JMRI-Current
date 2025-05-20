@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon May 05 11:50:01 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat May 17 08:16:56 PDT 2025-->
   <roster>
-    <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2025-05-01T04:29:35.142+0000</dateUpdated>
+    <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
+      <dateUpdated>2025-05-17T15:16:33.078+0000</dateUpdated>
       <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5980" longaddress="yes" />
@@ -16,39 +16,36 @@
         <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
         <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
         <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
-        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
-        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
-        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Lights on Dim</functionlabel>
         <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
-        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
-        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
-        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
-        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
-        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
-        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
-        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
-        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">General Service</functionlabel>
-        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
-        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
-        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
-        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
-        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
-        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
-        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
-        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
+        <functionlabel num="9" lockable="false" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
+        <functionlabel num="10" lockable="false" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="false" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="false" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="false" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="false" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="false" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="false" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="false" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="false" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="false" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="21" lockable="false" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
+        <functionlabel num="22" lockable="false" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
+        <functionlabel num="23" lockable="false" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="24" lockable="false" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+        <functionlabel num="25" lockable="false" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+        <functionlabel num="26" lockable="false" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
+        <functionlabel num="27" lockable="false" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
       </functionlabels>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-11-23T04:58:10.230+0000</value>
+          <value>2025-05-17T06:47:47.783+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>41282</value>
+          <value>41361</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -89,11 +86,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-03-22T01:26:19.816+0000</value>
+          <value>2025-05-17T07:12:43.626+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>210</value>
+          <value>226</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>

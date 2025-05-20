@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Apr 08 21:34:01 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Thu May 08 10:47:30 PDT 2025-->
   <divisions />
   <locations>
     <location id="1" name="Unreported" ops="1" dir="15" switchList="true" comment="" switchListComment="">
@@ -30,7 +30,7 @@
         <carType name="XP3" />
         <locoType name="ESS" />
       </types>
-      <track id="2s1" name="A" trackType="Spur" locType="Siding" dir="15" length="132" moves="5" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s1" name="A" trackType="Spur" locType="Siding" dir="15" length="132" moves="1" schedule="A" scheduleId="89" itemId="89c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XP3" />
         </types>
@@ -43,7 +43,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s2" name="B" trackType="Spur" locType="Siding" dir="15" length="88" moves="5" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s2" name="B" trackType="Spur" locType="Siding" dir="15" length="88" moves="1" schedule="B" scheduleId="90" itemId="90c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XP3" />
         </types>
@@ -56,20 +56,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s3" name="C" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
-        <types>
-          <carType name="XP3" />
-        </types>
-        <comments>
-          <track comment="TrainPlayer ID:3" />
-          <both comment="" />
-          <pickup comment="" />
-          <setout comment="" />
-          <printManifest comment="true" />
-          <printSwitchLists comment="false" />
-        </comments>
-      </track>
-      <track id="2s4" name="D" trackType="Spur" locType="Siding" dir="15" length="132" moves="4" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s4" name="D" trackType="Spur" locType="Siding" dir="15" length="132" moves="1" schedule="D" scheduleId="88" itemId="88c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XP3" />
         </types>
@@ -82,7 +69,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s5" name="E" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s5" name="E" trackType="Spur" locType="Siding" dir="15" length="44" moves="0" schedule="E" scheduleId="86" itemId="86c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XP3" />
         </types>
@@ -95,7 +82,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s6" name="F" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s6" name="F" trackType="Spur" locType="Siding" dir="15" length="88" moves="0" schedule="F" scheduleId="87" itemId="87c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XP3" />
         </types>
@@ -108,7 +95,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s7" name="G" trackType="Spur" locType="Siding" dir="15" length="88" moves="4" schedule="A" scheduleId="52" itemId="52c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s7" name="G" trackType="Spur" locType="Siding" dir="15" length="88" moves="0" schedule="G" scheduleId="91" itemId="91c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XP3" />
         </types>
@@ -124,26 +111,23 @@
     </location>
   </locations>
   <schedules>
-    <schedule id="49" name="E" comment="">
-      <item id="49c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
+    <schedule id="86" name="E" comment="">
+      <item id="86c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="0" />
     </schedule>
-    <schedule id="50" name="F" comment="">
-      <item id="50c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
+    <schedule id="87" name="F" comment="">
+      <item id="87c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="0" />
     </schedule>
-    <schedule id="51" name="D" comment="">
-      <item id="51c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
+    <schedule id="88" name="D" comment="">
+      <item id="88c2" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="1" />
     </schedule>
-    <schedule id="52" name="A" comment="">
-      <item id="52c2" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="30" />
+    <schedule id="89" name="A" comment="">
+      <item id="89c2" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="1" />
     </schedule>
-    <schedule id="53" name="B" comment="">
-      <item id="53c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
+    <schedule id="90" name="B" comment="">
+      <item id="90c2" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="1" />
     </schedule>
-    <schedule id="54" name="C" comment="">
-      <item id="54c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
-    </schedule>
-    <schedule id="55" name="G" comment="">
-      <item id="55c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
+    <schedule id="91" name="G" comment="">
+      <item id="91c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="0" />
     </schedule>
   </schedules>
 </operations-config>

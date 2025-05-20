@@ -54,7 +54,7 @@
   "EngineRoster_types": [
     "ESS"
   ], 
-  "Extended_buildDate": "04/08/2025-21:33:31", 
+  "Extended_buildDate": "05/08/2025-09:45:17", 
   "Extended_divisions": [
     ""
   ], 
@@ -86,13 +86,6 @@
       "track": "B", 
       "type": "industry"
     }, 
-    "3": {
-      "capacity": "2", 
-      "label": "C", 
-      "location": "TS", 
-      "track": "C", 
-      "type": "industry"
-    }, 
     "4": {
       "capacity": "3", 
       "label": "D", 
@@ -101,7 +94,7 @@
       "type": "industry"
     }, 
     "5": {
-      "capacity": "2", 
+      "capacity": "1", 
       "label": "E", 
       "location": "TS", 
       "track": "E", 
@@ -126,7 +119,6 @@
     "00", 
     "1", 
     "2", 
-    "3", 
     "4", 
     "5", 
     "6", 
@@ -238,30 +230,6 @@
       "b-track": "B", 
       "c-schedule": {
         "B": [
-          [
-            "", 
-            "R", 
-            "Load", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "", 
-            "S", 
-            "Load", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "7": {
-      "a-location": "TS", 
-      "b-track": "C", 
-      "c-schedule": {
-        "C": [
           [
             "", 
             "R", 
