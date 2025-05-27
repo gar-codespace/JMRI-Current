@@ -183,7 +183,7 @@
     "SI": null, 
     "SV": false, 
     "US": {
-      "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
+      "SP": "C:/Users/Greg/AppData/Roaming/TrainPlayer/Reports/Scanners"
     }
   }, 
   "Throwback": {
@@ -194,12 +194,8 @@
         ""
       ], 
       [
-        "2025.04.08.21.32.52", 
-        "first"
-      ], 
-      [
-        "2025.05.08.09.41.52", 
-        "second"
+        "2025.05.27.11.35.45", 
+        "Initial"
       ]
     ], 
     "US": {}

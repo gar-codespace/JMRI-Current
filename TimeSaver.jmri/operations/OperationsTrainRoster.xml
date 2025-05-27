@@ -2,9 +2,9 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Thu May 08 10:47:38 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue May 27 11:35:22 PDT 2025-->
   <options>
-    <trainOptions buildMessages="true" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Terminate" />
+    <trainOptions buildMessages="false" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
     <rowColorOptions rowColorManual="true" rowColorBuidFailed="" rowColorBuilt="" rowColorTrainEnRoute="" rowColorTerminated="" />
     <manifestCreator>
@@ -19,10 +19,14 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="3 Cars" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 5/08/2025 10:47" TerminationDate="5/08/2025 10:47" RequestedCars="3" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="3 Cars" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 5/27/2025 11:35" TerminationDate="5/27/2025 11:35" RequestedCars="3" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="3 Cars" id="1" />
       <types>
+        <carType name="RUx" />
+        <carType name="RPF" />
+        <carType name="RHx" />
+        <carType name="Bdr" />
         <carType name="XP3" />
       </types>
     </train>
@@ -43,13 +47,13 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="," />
-    <schedule id="2" name="Monday" trainIds="," />
-    <schedule id="3" name="Tuesday" trainIds="," />
-    <schedule id="4" name="Wednesday" trainIds="," />
-    <schedule id="5" name="Thursday" trainIds="," />
-    <schedule id="6" name="Friday" trainIds="," />
-    <schedule id="7" name="Saturday" trainIds="," />
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
   </schedules>
   <automations />
 </operations-config>

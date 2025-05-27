@@ -1,8 +1,8 @@
-NYC 0883;PRR Xg;XP3;TS;B;Load;;5
-LV 5776;PRR Xg;XP3;TS;E;Load;;1
+URTC 40028;URTC;RUx;TS;Red;Empty;;9
+HJH 424;Heinz 57;RHx;TS;Red;Empty;;10
+PRR 5907;Bdr;Bdr;TS;Yellow;Empty;;1
+P&R 16492;PRR Xg;XP3;TS;Purple;Load;;3
+PFE 559;PFE 40;RPF;TS;Purple;Empty;;2
+NYP&N 900;PRR Xg;XP3;TS;Blue;Load;;5
+PRR 3;Trackmobile;EDS;Unreported;~;unloadable;;7
 PRR 260;A4;ESS;Unreported;~;unloadable;;4
-SP 4427;PRR Xg;XP3;TS;A;Load;;3
-B&A 4582;PRR Xg;XP3;TS;A;Load;;6
-WJ&S 5544;PRR Xg;XP3;Unreported;~;Empty;;7
-AT&SF 0077;PRR Xg;XP3;Unreported;~;Empty;;8
-CS 2851;PRR Xg;XP3;TS;D;Load;;2

@@ -24,25 +24,45 @@
     "P"
   ], 
   "CarRoster_loads": {
-    "XP3": []
+    "Bdr": [
+      "Load"
+    ], 
+    "RHx": [
+      "Load"
+    ], 
+    "RPF": [
+      "Load"
+    ], 
+    "RUx": [
+      "Load"
+    ], 
+    "XP3": [
+      "Load"
+    ]
   }, 
   "CarRoster_newKernels": [
     ""
   ], 
   "CarRoster_roads": [
-    "WJ&S", 
-    "LV", 
-    "CS", 
+    "HJH", 
+    "URTC", 
+    "PFE", 
     "PRR", 
-    "NYC", 
-    "AT&SF", 
-    "SP", 
-    "B&A"
+    "NYP&N", 
+    "P&R"
   ], 
   "CarRoster_types": [
+    "RHx", 
+    "RPF", 
+    "Bdr", 
+    "RUx", 
     "XP3"
   ], 
   "EngineRoster_models": [
+    [
+      "Trackmobile", 
+      "EDS"
+    ], 
     [
       "A4", 
       "ESS"
@@ -52,9 +72,10 @@
     ""
   ], 
   "EngineRoster_types": [
-    "ESS"
+    "ESS", 
+    "EDS"
   ], 
-  "Extended_buildDate": "05/08/2025-09:45:17", 
+  "Extended_buildDate": "05/27/2025-10:24:23", 
   "Extended_divisions": [
     ""
   ], 
@@ -74,44 +95,44 @@
     }, 
     "1": {
       "capacity": "3", 
-      "label": "A", 
+      "label": "Red", 
       "location": "TS", 
-      "track": "A", 
+      "track": "Red", 
       "type": "industry"
     }, 
     "2": {
       "capacity": "2", 
-      "label": "B", 
+      "label": "Blu", 
       "location": "TS", 
-      "track": "B", 
+      "track": "Blue", 
       "type": "industry"
     }, 
     "4": {
       "capacity": "3", 
-      "label": "D", 
+      "label": "Pur", 
       "location": "TS", 
-      "track": "D", 
+      "track": "Purple", 
       "type": "industry"
     }, 
     "5": {
       "capacity": "1", 
-      "label": "E", 
+      "label": "Brn", 
       "location": "TS", 
-      "track": "E", 
+      "track": "Brown", 
       "type": "industry"
     }, 
     "6": {
       "capacity": "2", 
-      "label": "F", 
+      "label": "Grn", 
       "location": "TS", 
-      "track": "F", 
+      "track": "Green", 
       "type": "industry"
     }, 
     "7": {
       "capacity": "2", 
-      "label": "G", 
+      "label": "Yel", 
       "location": "TS", 
-      "track": "G", 
+      "track": "Yellow", 
       "type": "industry"
     }
   }, 
@@ -131,9 +152,9 @@
   "LocationRoster_spurs": {
     "1": {
       "a-location": "TS", 
-      "b-track": "D", 
+      "b-track": "Red", 
       "c-schedule": {
-        "D": [
+        "Red": [
           [
             "", 
             "R", 
@@ -155,9 +176,9 @@
     }, 
     "11": {
       "a-location": "TS", 
-      "b-track": "E", 
+      "b-track": "Green", 
       "c-schedule": {
-        "E": [
+        "Grn": [
           [
             "", 
             "R", 
@@ -179,9 +200,9 @@
     }, 
     "13": {
       "a-location": "TS", 
-      "b-track": "F", 
+      "b-track": "Yellow", 
       "c-schedule": {
-        "F": [
+        "Yel": [
           [
             "", 
             "R", 
@@ -203,11 +224,11 @@
     }, 
     "3": {
       "a-location": "TS", 
-      "b-track": "A", 
+      "b-track": "Blue", 
       "c-schedule": {
-        "A": [
+        "Blu": [
           [
-            "", 
+            "Bdr", 
             "R", 
             "Load", 
             "", 
@@ -215,7 +236,71 @@
             ""
           ], 
           [
+            "Bdr", 
+            "S", 
+            "Load", 
             "", 
+            "", 
+            ""
+          ], 
+          [
+            "RHx", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RHx", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RPF", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RPF", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RUx", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RUx", 
+            "S", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
+            "R", 
+            "Load", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XP3", 
             "S", 
             "Load", 
             "", 
@@ -227,9 +312,9 @@
     }, 
     "5": {
       "a-location": "TS", 
-      "b-track": "B", 
+      "b-track": "Purple", 
       "c-schedule": {
-        "B": [
+        "Pur": [
           [
             "", 
             "R", 
@@ -251,9 +336,9 @@
     }, 
     "9": {
       "a-location": "TS", 
-      "b-track": "G", 
+      "b-track": "Brown", 
       "c-schedule": {
-        "G": [
+        "Brn": [
           [
             "", 
             "R", 
