@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue May 27 11:35:22 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed Jun 11 14:54:56 PDT 2025-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -19,14 +19,14 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="3 Cars" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 5/27/2025 11:35" TerminationDate="5/27/2025 11:35" RequestedCars="3" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="3 Cars" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="Printed" status="Terminated 6/11/2025 13:43" TerminationDate="6/11/2025 13:43" RequestedCars="3" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="3 Cars" id="1" />
       <types>
-        <carType name="RUx" />
-        <carType name="RPF" />
-        <carType name="RHx" />
         <carType name="Bdr" />
+        <carType name="RHx" />
+        <carType name="RPF" />
+        <carType name="RUx" />
         <carType name="XP3" />
       </types>
     </train>
@@ -34,6 +34,10 @@
       <rowColor name="" resetRowColor="" />
       <route name="4 Cars" id="2" />
       <types>
+        <carType name="Bdr" />
+        <carType name="RHx" />
+        <carType name="RPF" />
+        <carType name="RUx" />
         <carType name="XP3" />
       </types>
     </train>
@@ -41,6 +45,10 @@
       <rowColor name="" resetRowColor="" />
       <route name="5 Cars" id="3" />
       <types>
+        <carType name="Bdr" />
+        <carType name="RHx" />
+        <carType name="RPF" />
+        <carType name="RUx" />
         <carType name="XP3" />
       </types>
     </train>

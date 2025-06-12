@@ -1,0 +1,65 @@
+P&R 9600;flatcar;FM;North 4th St; Crane;Empty;;37
+PL 7441;gondola;GA;North 4th St;Team Tracks;Empty;;60
+MDX 0730;ice reefer;RS;North 4th St;Team Tracks;Empty;;14
+MDX 9710;ice reefer;RS;North 4th St;Team Tracks;Empty;;50
+FGEX 5281;ice reefer;RS;North 4th St;Team Tracks;Empty;;10
+FGEX 7499;ice reefer;RS;North 4th St;Team Tracks;Empty;;51
+CNJ 6475;40ft wood box;XM;North 4th St;Freight Station;Empty;;67
+TCX 1747;tankcar;TG;North 4th St;Team Tracks;Empty;;1
+PRR 1240;gondola;GA;North 4th St;Team Tracks;Empty;;61
+MDX 9519;ice reefer;RS;North 4th St;Team Tracks;Empty;;9
+PGCC 6550;2 bay hopper;HK;North 4th St;Team Tracks;Empty;;4
+FGEX 3698;ice reefer;RS;North 4th St;Team Tracks;Empty;;11
+DL&W 1035;gondola;GA;North 4th St;Team Tracks;Empty;;63
+FGEX 0420;ice reefer;RS;Pier Float;Pier Float;Empty;;15
+PL 3950;40ft wood box;XM;Pier Float;Pier Float;Empty;;28
+WJ&S 2497;40ft wood box;XM;Pier Float;Pier Float;Empty;;46
+MDX 3236;ice reefer;RS;Pier Float;Pier Float;Empty;;16
+CNJ 6820;flatcar;FM;Pier Float;Pier Float;Empty;;39
+FGEX 9442;ice reefer;RS;Pier Float;Pier Float;Empty;;12
+NYC 6956;40ft wood box;XM;North 4th St;5th St Pier;Empty;;25
+PGCC 4987;2 bay hopper;HK;North 4th St;Team Tracks;Empty;;8
+FGEX 7502;ice reefer;RS;North 4th St;Team Tracks;Empty;;49
+PGCC 1976;2 bay hopper;HK;North 4th St;Team Tracks;Empty;;5
+PRR 6325;2 bay hopper;HK;North 4th St;Team Tracks;Empty;;55
+DL&W 5836;40ft wood box;XM;North 4th St;Team Tracks;Empty;;35
+WJ&S 1455;gondola;GA;North 4th St;5th St Pier;Empty;;66
+PL 5177;gondola;GA;North 4th St;5th St Pier;Empty;;64
+WJ&S 5974;40ft wood box;XM;North 4th St;5th St Pier;Empty;;24
+PL 1471;gondola;GA;North 4th St;5th St Pier;Empty;;27
+WJ&S 5836;40ft wood box;XM;North 4th St;Team Tracks;Empty;;32
+PRR 0618;40ft wood box;XM;North 4th St;Team Tracks;Empty;;31
+PL 3355;40ft wood box;XM;North 4th St;Team Tracks;Empty;;43
+CNJ 8371;40ft wood box;XM;North 4th St;Team Tracks;Empty;;59
+FGEX 8711;ice reefer;RS;North 4th St;Team Tracks;Empty;;13
+PGCC 9514;2 bay hopper;HK;North 4th St;Team Tracks;Empty;;6
+PRR 2673;40ft wood box;XM;North 4th St;Freight Station;Empty;;3
+WJ&S 0771;40ft wood box;XM;North 4th St;Freight Station;Empty;;21
+PRR 9818;40ft wood box;XM;North 4th St;Freight Station;Empty;;68
+NYNH&H 8767;40ft wood box;XM;North 4th St;Freight Station;Empty;;30
+DL&W 3995;40ft wood box;XM;North 4th St;Freight Station;Empty;;42
+ACL 3405;40ft wood box;XM;North 4th St;Freight Station;Empty;;54
+PL 4239;40ft wood box;XM;North 4th St;Freight Station;Empty;;48
+PRR 1789;40ft wood box;XM;North 4th St;Freight Station;Empty;;26
+PL 5316;40ft wood box;XM;North 4th St;Freight Station;Empty;;22
+PRR 414;0-4-0t;ES;Unreported;~;unloadable;;57
+B&O 0226;40ft wood box;XM;Pier Float;Pier Float;Empty;;41
+CNJ 4885;40ft wood box;XM;Pier Float;Pier Float;Empty;;36
+PL 9774;40ft wood box;XM;Pier Float;Pier Float;Empty;;45
+NYC 0823;40ft wood box;XM;Pier Float;Pier Float;Empty;;58
+NYNH&H 5964;40ft wood box;XM;Pier Float;Pier Float;Empty;;71
+P&R 7741;flatcar;FM;Pier Float;Pier Float;Empty;;62
+NYC 0830;gondola;GA;North 4th St; Crane;Empty;;65
+ER 5377;40ft wood box;XM;North 4th St;5th St Pier;Empty;;52
+WJ&S 2279;40ft wood box;XM;North 4th St;5th St Pier;Empty;;33
+PL 9032;40ft wood box;XM;North 4th St;5th St Pier;Empty;;44
+ACL 4177;40ft wood box;XM;North 4th St;5th St Pier;Empty;;2
+ER 9511;40ft wood box;XM;North 4th St;5th St Pier;Empty;;47
+ER 8024;gondola;GA;North 4th St;5th St Pier;Empty;;18
+PL 2291;40ft wood box;XM;North 4th St;5th St Pier;Empty;;20
+AT&SF 5288;40ft wood box;XM;North 4th St;5th St Pier;Empty;;69
+NYNH&H 5762;40ft wood box;XM;North 4th St;5th St Pier;Empty;;70
+WJ&S 8214;40ft wood box;XM;North 4th St;5th St Pier;Empty;;40
+SP 5437;40ft wood box;XM;North 4th St;Team Tracks;Empty;;29
+B&A 2876;gondola;GA;North 4th St;Team Tracks;Empty;;34
+WJ&S 1505;flatcar;FM;North 4th St;Team Tracks;Empty;;38

@@ -1,17 +1,69 @@
 {
-  "buildDate": "07/17/2023-14:05:31", 
-  "carAAR": [
-    "RS", 
-    "HK", 
-    "FM", 
-    "TG", 
-    "XM", 
-    "GA"
+  "AAR_Caboose": [
+    "E", 
+    "ES", 
+    "ED", 
+    "EE", 
+    "EP", 
+    "N", 
+    "NE", 
+    "NM"
   ], 
-  "carKernel": [
+  "AAR_Engine": [
     ""
   ], 
-  "carLoads": {
+  "AAR_Express": [
+    ""
+  ], 
+  "AAR_MOW": [
+    "F", 
+    "FA", 
+    "FA6", 
+    "FB", 
+    "FC", 
+    "FCA", 
+    "FD", 
+    "FL", 
+    "FM", 
+    "FS", 
+    "FW", 
+    "G", 
+    "GA", 
+    "GB", 
+    "GD", 
+    "GBH", 
+    "GE", 
+    "GS", 
+    "GT", 
+    "H", 
+    "HM", 
+    "LG", 
+    "LO", 
+    "LP", 
+    "LT", 
+    "O", 
+    "RA", 
+    "RBL", 
+    "RP", 
+    "S", 
+    "SH", 
+    "SM", 
+    "T", 
+    "TA", 
+    "TL", 
+    "TW", 
+    "X", 
+    "XAR", 
+    "XMR", 
+    "XI", 
+    "XM", 
+    "XP"
+  ], 
+  "AAR_Passenger": [
+    "HT", 
+    "HK"
+  ], 
+  "CarRoster_loads": {
     "FM": [
       "lumber stack", 
       "Tarp", 
@@ -40,10 +92,117 @@
       "LCL"
     ]
   }, 
-  "divisions": [
+  "CarRoster_newKernels": [
     ""
   ], 
-  "industries": {
+  "CarRoster_roads": [
+    "MDX", 
+    "NYNH&H", 
+    "TCX", 
+    "WJ&S", 
+    "ACL", 
+    "B&O", 
+    "ER", 
+    "PRR", 
+    "PGCC", 
+    "FGEX", 
+    "DL&W", 
+    "NYC", 
+    "PL", 
+    "AT&SF", 
+    "P&R", 
+    "SP", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "CarRoster_types": [
+    "RS", 
+    "HK", 
+    "FM", 
+    "TG", 
+    "XM", 
+    "GA"
+  ], 
+  "EngineRoster_models": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "EngineRoster_newConsists": [
+    ""
+  ], 
+  "EngineRoster_types": [
+    "ES"
+  ], 
+  "Extended_buildDate": "06/12/2025-07:40:28", 
+  "Extended_divisions": [
+    ""
+  ], 
+  "Extended_layoutName": "PRR BEDS-1914", 
+  "Extended_location": "Williamsburg, Brooklyn, New York", 
+  "Extended_operatingRoad": "Pennsylvania Railroad", 
+  "Extended_scale": "HO", 
+  "Extended_territory": "Brooklyn Eastern District Station", 
+  "Extended_year": "1914", 
+  "LocationRoster_location": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "2", 
+      "label": "C", 
+      "location": "North 4th St", 
+      "track": " Crane", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "16", 
+      "label": "5P", 
+      "location": "North 4th St", 
+      "track": "5th St Pier", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "13", 
+      "label": "4F", 
+      "location": "North 4th St", 
+      "track": "Freight Station", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "46", 
+      "label": "TT", 
+      "location": "North 4th St", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "12", 
+      "label": "PF", 
+      "location": "Pier Float", 
+      "track": "Pier Float", 
+      "type": "staging"
+    }
+  }, 
+  "LocationRoster_locationIds": [
+    "00", 
+    "1", 
+    "3", 
+    "4", 
+    "5", 
+    "2"
+  ], 
+  "LocationRoster_locations": [
+    "North 4th St", 
+    "Pier Float", 
+    "Unreported"
+  ], 
+  "LocationRoster_spurs": {
     "1": {
       "a-location": "North 4th St", 
       "b-track": " Crane", 
@@ -212,100 +371,5 @@
         ]
       }
     }
-  }, 
-  "layoutName": "PRR BEDS-1914", 
-  "locales": {
-    "00": {
-      "capacity": "100", 
-      "label": "~", 
-      "location": "Sin notificar", 
-      "track": "~", 
-      "type": "class yard"
-    }, 
-    "1": {
-      "capacity": "2", 
-      "label": "C", 
-      "location": "North 4th St", 
-      "track": " Crane", 
-      "type": "industry"
-    }, 
-    "2": {
-      "capacity": "16", 
-      "label": "5P", 
-      "location": "North 4th St", 
-      "track": "5th St Pier", 
-      "type": "industry"
-    }, 
-    "3": {
-      "capacity": "13", 
-      "label": "4F", 
-      "location": "North 4th St", 
-      "track": "Freight Station", 
-      "type": "industry"
-    }, 
-    "4": {
-      "capacity": "46", 
-      "label": "TT", 
-      "location": "North 4th St", 
-      "track": "Team Tracks", 
-      "type": "industry"
-    }, 
-    "5": {
-      "capacity": "12", 
-      "label": "PF", 
-      "location": "Pier Float", 
-      "track": "Pier Float", 
-      "type": "staging"
-    }
-  }, 
-  "location": "Williamsburg, Brooklyn, New York", 
-  "locationIds": [
-    "00", 
-    "1", 
-    "3", 
-    "4", 
-    "5", 
-    "2"
-  ], 
-  "locations": [
-    "North 4th St", 
-    "Pier Float", 
-    "Sin notificar"
-  ], 
-  "locoConsists": [
-    ""
-  ], 
-  "locoModels": [
-    [
-      "0-4-0t", 
-      "ES"
-    ]
-  ], 
-  "locoTypes": [
-    "ES"
-  ], 
-  "operatingRoad": "Pennsylvania Railroad", 
-  "roads": [
-    "MDX", 
-    "NYNH&H", 
-    "WJ&S", 
-    "TCX", 
-    "ACL", 
-    "B&O", 
-    "ER", 
-    "PRR", 
-    "PGCC", 
-    "FGEX", 
-    "DL&W", 
-    "NYC", 
-    "PL", 
-    "AT&SF", 
-    "P&R", 
-    "SP", 
-    "B&A", 
-    "CNJ"
-  ], 
-  "scale": "HO", 
-  "territory": "Brooklyn Eastern District Station", 
-  "year": "1914"
+  }
 }

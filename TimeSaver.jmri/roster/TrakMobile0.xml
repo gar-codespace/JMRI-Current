@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed Apr 30 13:52:22 PDT 2025-->
-  <locomotive id="TrakMobile" fileName="TrakMobile.xml" roadNumber="3" roadName="PRR" mfg="BLI" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-04-30T20:52:22.915+0000</dateUpdated>
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed May 28 08:36:32 PDT 2025-->
+  <locomotive id="TrakMobile" fileName="TrakMobile0.xml" roadNumber="3" roadName="PRR" mfg="BLI" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2025-05-28T15:36:32.240+0000</dateUpdated>
     <decoder model="Diesel" family="Blueline" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3" longaddress="no" />
@@ -21,11 +21,11 @@
     <attributepairs>
       <keyvaluepair>
         <key>LastOperated</key>
-        <value>2021-03-22T01:26:19.816+0000</value>
+        <value>2025-05-17T07:12:43.626+0000</value>
       </keyvaluepair>
       <keyvaluepair>
         <key>OperatingDuration</key>
-        <value>210</value>
+        <value>226</value>
       </keyvaluepair>
     </attributepairs>
     <values>
@@ -340,5 +340,4 @@
       <CVvalue name="19" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon May 05 08:42:28 PDT 2025-->
 </locomotive-config>

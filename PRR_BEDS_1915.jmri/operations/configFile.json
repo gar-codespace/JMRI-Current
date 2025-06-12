@@ -16,10 +16,10 @@
       "ER": true, 
       "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
-      "PH": 280, 
-      "PW": 1000, 
-      "PX": 0, 
-      "PY": 0, 
+      "PH": 811, 
+      "PW": 1118, 
+      "PX": 77, 
+      "PY": 546, 
       "RV": 20231010, 
       "SE": "utf-8", 
       "TC": "UD", 
@@ -28,7 +28,13 @@
         "UX": "UseSomethingElse"
       }
     }, 
-    "SL": [], 
+    "SL": [
+      "jPlus", 
+      "o2o", 
+      "Patterns", 
+      "Scanner", 
+      "Throwback"
+    ], 
     "SR": {
       "G": 11, 
       "HO": 6, 
@@ -177,7 +183,7 @@
     "SI": null, 
     "SV": true, 
     "US": {
-      "SP": "C:/Users/greg9/AppData/Roaming/TrainPlayer/Reports/Scanners"
+      "SP": "C:/Users/Greg/AppData/Roaming/TrainPlayer/Reports/Scanners"
     }
   }, 
   "Throwback": {
@@ -193,14 +199,14 @@
   "jPlus": {
     "LD": {
       "BD": "", 
-      "EH": false, 
-      "JN": "", 
+      "EH": true, 
+      "JN": "Pennsylvania Railroad\nBrooklyn Eastern District Station\nWilliamsburg, Brooklyn, New York", 
       "LN": "", 
-      "LO": "", 
-      "OR": "", 
+      "LO": "Williamsburg, Brooklyn, New York", 
+      "OR": "Pennsylvania Railroad", 
       "SC": "", 
-      "TR": "", 
-      "YR": ""
+      "TR": "Brooklyn Eastern District Station", 
+      "YR": "1914"
     }, 
     "SV": true, 
     "US": {}
