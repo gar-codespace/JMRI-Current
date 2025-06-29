@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue May 27 21:54:19 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jun 24 22:03:10 PDT 2025-->
   <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
-    <dateUpdated>2025-05-28T04:54:19.108+0000</dateUpdated>
+    <dateUpdated>2025-06-25T05:03:10.739+0000</dateUpdated>
     <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5980" longaddress="yes" />
@@ -179,14 +179,14 @@
         <varValue item="Sound Option 16" value="0" />
         <varValue item="Sound Setting 2" value="133" />
         <varValue item="Sound Setting 4" value="30" />
-        <varValue item="Sound Setting 5" value="60" />
+        <varValue item="Sound Setting 5" value="30" />
         <varValue item="Sound Setting 6" value="0" />
-        <varValue item="Sound Setting 7" value="75" />
+        <varValue item="Sound Setting 7" value="100" />
         <varValue item="Sound Setting 8" value="39" />
         <varValue item="Sound Setting 36" value="200" />
         <varValue item="Sound Setting 37" value="185" />
         <varValue item="Sound Setting 38" value="220" />
-        <varValue item="Sound Setting 16" value="30" />
+        <varValue item="Sound Setting 16" value="15" />
         <varValue item="Sound Setting 17" value="50" />
         <varValue item="Sound Setting 18" value="128" />
         <varValue item="Sound Setting 20" value="0" />
@@ -399,11 +399,11 @@
         <varValue item="Sound Option 9" value="0" />
         <varValue item="Sound Option 11" value="0" />
         <varValue item="Sound Option 12" value="1" />
-        <varValue item="Sound Setting 1" value="68" />
+        <varValue item="Sound Setting 1" value="70" />
         <varValue item="Sound Setting 3" value="68" />
         <varValue item="Sound Setting 10" value="128" />
-        <varValue item="Sound Setting 12" value="40" />
-        <varValue item="Sound Setting 13" value="50" />
+        <varValue item="Sound Setting 12" value="25" />
+        <varValue item="Sound Setting 13" value="25" />
         <varValue item="Sound Setting 21" value="70" />
         <varValue item="Sound Setting 22" value="150" />
         <varValue item="Sound Setting 23" value="0" />
@@ -649,7 +649,7 @@
         <varValue item="Master Brightness" value="255" />
         <varValue item="Advanced Group 1 Option 6" value="0" />
         <varValue item="Advanced Group 1 Option 7" value="0" />
-        <varValue item="Sound Setting 11" value="50" />
+        <varValue item="Sound Setting 11" value="25" />
         <varValue item="Sound Setting 26" value="111" />
         <varValue item="Sound Setting 27" value="10" />
         <varValue item="Sound Setting 28" value="50" />
@@ -724,14 +724,14 @@
       <CVvalue name="125" value="0" />
       <CVvalue name="129" value="133" />
       <CVvalue name="131" value="30" />
-      <CVvalue name="132" value="60" />
+      <CVvalue name="132" value="30" />
       <CVvalue name="133" value="0" />
-      <CVvalue name="134" value="75" />
+      <CVvalue name="134" value="100" />
       <CVvalue name="135" value="39" />
       <CVvalue name="136" value="200" />
       <CVvalue name="141" value="185" />
       <CVvalue name="142" value="220" />
-      <CVvalue name="143" value="30" />
+      <CVvalue name="143" value="15" />
       <CVvalue name="144" value="50" />
       <CVvalue name="145" value="128" />
       <CVvalue name="147" value="0" />
@@ -849,11 +849,11 @@
       <CVvalue name="117" value="0" />
       <CVvalue name="119" value="204" />
       <CVvalue name="126" value="128" />
-      <CVvalue name="128" value="68" />
+      <CVvalue name="128" value="70" />
       <CVvalue name="130" value="68" />
       <CVvalue name="137" value="128" />
-      <CVvalue name="139" value="40" />
-      <CVvalue name="140" value="50" />
+      <CVvalue name="139" value="25" />
+      <CVvalue name="140" value="25" />
       <CVvalue name="148" value="70" />
       <CVvalue name="149" value="150" />
       <CVvalue name="150" value="0" />
@@ -981,7 +981,7 @@
       <CVvalue name="16.1.449" value="16" />
       <CVvalue name="64" value="255" />
       <CVvalue name="118" value="0" />
-      <CVvalue name="138" value="50" />
+      <CVvalue name="138" value="25" />
       <CVvalue name="153" value="111" />
       <CVvalue name="154" value="10" />
       <CVvalue name="155" value="50" />

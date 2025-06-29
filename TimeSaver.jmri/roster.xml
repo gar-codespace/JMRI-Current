@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed May 28 08:36:35 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jun 24 22:03:19 PDT 2025-->
   <roster>
     <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
-      <dateUpdated>2025-05-28T04:54:19.108+0000</dateUpdated>
+      <dateUpdated>2025-06-25T05:03:10.739+0000</dateUpdated>
       <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5980" longaddress="yes" />
@@ -68,7 +68,7 @@
       </soundlabels>
     </locomotive>
     <locomotive id="TrakMobile" fileName="TrakMobile0.xml" roadNumber="3" roadName="PRR" mfg="BLI" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2025-05-28T15:36:32.240+0000</dateUpdated>
+      <dateUpdated>2025-06-25T00:46:27.350+0000</dateUpdated>
       <decoder model="Diesel" family="Blueline" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3" longaddress="no" />

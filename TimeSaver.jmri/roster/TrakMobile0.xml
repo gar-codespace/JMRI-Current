@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed May 28 08:36:32 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jun 24 17:46:27 PDT 2025-->
   <locomotive id="TrakMobile" fileName="TrakMobile0.xml" roadNumber="3" roadName="PRR" mfg="BLI" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-05-28T15:36:32.240+0000</dateUpdated>
+    <dateUpdated>2025-06-25T00:46:27.350+0000</dateUpdated>
     <decoder model="Diesel" family="Blueline" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3" longaddress="no" />
@@ -244,7 +244,7 @@
         <varValue item="Decoder Lock ID number" value="0" />
         <varValue item="Consist Direction" value="0" />
         <varValue item="Consist Address" value="0" />
-        <varValue item="Locomotive Direction" value="1" />
+        <varValue item="Locomotive Direction" value="0" />
         <varValue item="Speed Step Mode" value="1" />
       </decoderDef>
       <CVvalue name="21" value="0" />
@@ -331,9 +331,9 @@
       <CVvalue name="252" value="80" />
       <CVvalue name="253" value="50" />
       <CVvalue name="1" value="3" />
-      <CVvalue name="17" value="192" />
+      <CVvalue name="17" value="0" />
       <CVvalue name="18" value="0" />
-      <CVvalue name="29" value="7" />
+      <CVvalue name="29" value="2" />
       <CVvalue name="7" value="0" />
       <CVvalue name="8" value="0" />
       <CVvalue name="16" value="0" />
