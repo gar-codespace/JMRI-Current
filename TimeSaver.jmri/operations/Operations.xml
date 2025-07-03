@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jun 24 09:03:58 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed Jul 02 12:35:07 PDT 2025-->
   <operations>
     <setup comment="" />
     <settings mainMenu="true" closeOnSave="true" autoSave="false" autoBackup="false" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="true" valueLabel="Value" showRfid="true" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1915" />
@@ -16,7 +16,7 @@
     <switchListPickupCarFormat prefix=" [ ] Pick up" setting="Road,Number,Type,Load Type,Load,Hazardous,Track," />
     <switchListDropCarFormat prefix=" [ ] Set out" setting="Road,Number,Type,Load Type,Load,Hazardous,Dest&amp;Track," />
     <switchListLocalFormat prefix=" [ ] Move" setting="Road,Number,Type,Load Type,Load,Hazardous,Final Dest,Dest&amp;Track," />
-    <panel name="Panel" trainIconXY="true" trainIconAppend="false" />
+    <panel name="Panel" trainIconXY="false" trainIconAppend="false" />
     <fontName name="Monospaced" />
     <fontSize size="10" />
     <pageOrientation manifest="Portrait" switchList="Portrait" />

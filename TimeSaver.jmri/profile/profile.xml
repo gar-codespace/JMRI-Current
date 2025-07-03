@@ -23,6 +23,6 @@
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="settings:OperationsPatternScripts/MainScript.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" name="settings:OperationsPatternScripts/StandAloneExport.py" type="ScriptFile"/>
     </startup>
 </auxiliary-configuration>
