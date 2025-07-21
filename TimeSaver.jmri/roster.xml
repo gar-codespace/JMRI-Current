@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Wed Jul 02 12:50:34 PDT 2025-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat Jul 19 15:43:23 PDT 2025-->
   <roster>
     <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
       <dateUpdated>2025-06-25T05:03:10.739+0000</dateUpdated>
@@ -86,11 +86,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2025-05-17T07:12:43.626+0000</value>
+          <value>2025-07-04T18:06:41.093+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>226</value>
+          <value>316</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
