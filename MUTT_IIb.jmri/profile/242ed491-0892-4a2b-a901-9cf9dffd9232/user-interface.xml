@@ -28,10 +28,10 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="PanelPro" height="278.0" locX="2053.0" locY="16.0" width="408.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="273.0" locX="0.0" locY="0.0" width="1268.0"/>
-        <window xmlns="" class="JMRI System Console" height="437.0" locX="1659.0" locY="301.0" width="879.0"/>
         <window xmlns="" class="Script Output" height="244.0" locX="1349.0" locY="892.0" width="339.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="273.0" locX="0.0" locY="0.0" width="1268.0"/>
+        <window xmlns="" class="PanelPro" height="278.0" locX="2053.0" locY="16.0" width="408.0"/>
+        <window xmlns="" class="JMRI System Console" height="437.0" locX="1659.0" locY="301.0" width="879.0"/>
     </windowDetails>
 </auxiliary-configuration>
