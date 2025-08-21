@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Fri Aug 15 22:02:35 PDT 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Wed Aug 20 17:12:31 PDT 2025-->
   <roster>
-    <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
+    <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
       <dateUpdated>2025-06-25T05:03:10.739+00:00</dateUpdated>
       <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
@@ -49,7 +49,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SW 1200" fileName="SW_12000.xml" roadNumber="7923" roadName="PRR" mfg="Rapido" owner="" model="27546" dccAddress="7923" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="SW 1200" fileName="SW_12000.xml" roadNumber="7923" roadName="PRR" mfg="Rapido" owner="" model="27546" dccAddress="7923" comment="" developerID="-1" manufacturerID="151" productID="33554588" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2025-04-30T23:44:26.787+00:00</dateUpdated>
       <decoder model="LokSound 5 Fx DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
@@ -67,7 +67,7 @@
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="TrakMobile" fileName="TrakMobile0.xml" roadNumber="3" roadName="PRR" mfg="BLI" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="TrakMobile" fileName="TrakMobile0.xml" roadNumber="3" roadName="PRR" mfg="BLI" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="80" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2025-06-25T00:46:27.350+00:00</dateUpdated>
       <decoder model="Diesel" family="Blueline" comment="" maxFnNum="28" />
       <locoaddress>
