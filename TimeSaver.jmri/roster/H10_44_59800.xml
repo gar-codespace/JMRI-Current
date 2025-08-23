@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Jun 24 22:03:10 PDT 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Fri Aug 22 14:49:29 PDT 2025-->
   <locomotive id="H10-44 5980" fileName="H10_44_59800.xml" roadNumber="5980" roadName="PRR" mfg="Proto 2000" owner="" model="" dccAddress="5980" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="F5">
-    <dateUpdated>2025-06-25T05:03:10.739+0000</dateUpdated>
+    <dateUpdated>2025-08-22T21:49:29.826+00:00</dateUpdated>
     <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5980" longaddress="yes" />
@@ -209,14 +209,14 @@
         <varValue item="Reverb188" value="0" />
         <varValue item="Reverb191" value="0" />
         <varValue item="Sound Group 3 Option 2" value="10" />
-        <varValue item="Probability Fireman Shovels Coal" value="0" />
-        <varValue item="Probability Fireman Fills the Tender" value="0" />
-        <varValue item="Probability Fireman Turns His Wrench" value="128" />
-        <varValue item="Probability Fireman Uses His Grease Gun" value="128" />
-        <varValue item="Probability Fireman Uses His Oil Can" value="0" />
-        <varValue item="Probability Fireman Uses the Injector" value="0" />
-        <varValue item="Probability Fireman Uses the Blower" value="0" />
-        <varValue item="Probability Pop Valve Blows Off" value="128" />
+        <varValue item="Cab Doors Event Probability" value="0" />
+        <varValue item="Fuel Loading Event Probability" value="0" />
+        <varValue item="Wrenches Event Probability" value="128" />
+        <varValue item="Pneumatic Oilers Event Probability" value="128" />
+        <varValue item="Cab Chatter Event Probability" value="0" />
+        <varValue item="Toilet Flush Event Probability" value="0" />
+        <varValue item="Air Conditioner Event Probability" value="0" />
+        <varValue item="Relay Clicks Event Probability" value="128" />
         <varValue item="Analog Vhigh" value="15" />
         <varValue item="Sound Group 3 Option 5" value="128" />
         <varValue item="Extended Function Map Independent/Train Brake" value="11" />
@@ -229,6 +229,7 @@
         <varValue item="Extended Function Map Short Airhorn" value="3" />
         <varValue item="Extended Function Map Straight-to-Eight" value="255" />
         <varValue item="Extended Function Map General Service" value="18" />
+        <varValue item="Extended Function Map HEP Mode" value="16" />
         <varValue item="Extended Function Map Turbine Start-Stop" value="16" />
         <varValue item="Extended Function Map HEP Mode" value="16" />
         <varValue item="Extended Function Map HEP Mode2" value="16" />
@@ -363,35 +364,35 @@
         <varValue item="Backup Light F0(r) Phase Selection" value="0" />
         <varValue item="Backup Light F0(r) Grade Crossing Logic" value="0" />
         <varValue item="Backup Light F0(r) Light Type" value="0" />
+        <varValue item="FX3 Phase Selection" value="0" />
+        <varValue item="FX3 Grade Crossing Logic" value="0" />
+        <varValue item="FX3 Light Type" value="0" />
+        <varValue item="FX4 Phase Selection" value="0" />
+        <varValue item="FX4 Grade Crossing Logic" value="0" />
+        <varValue item="FX4 Light Type" value="0" />
         <varValue item="FX5 Phase Selection" value="0" />
         <varValue item="FX5 Grade Crossing Logic" value="0" />
         <varValue item="FX5 Light Type" value="0" />
         <varValue item="FX6 Phase Selection" value="0" />
         <varValue item="FX6 Grade Crossing Logic" value="0" />
         <varValue item="FX6 Light Type" value="0" />
-        <varValue item="FX5B Phase Selection" value="0" />
-        <varValue item="FX5B Grade Crossing Logic" value="0" />
-        <varValue item="FX5B Light Type" value="0" />
-        <varValue item="FX6B Phase Selection" value="0" />
-        <varValue item="FX6B Grade Crossing Logic" value="0" />
-        <varValue item="FX6B Light Type" value="0" />
         <varValue item="Headlight F0(f) Forward Directional Control" value="0" />
         <varValue item="Backup Light F0(r) Forward Directional Control" value="1" />
-        <varValue item="FX5 Forward Directional Control" value="1" />
-        <varValue item="FX6 Forward Directional Control" value="1" />
-        <varValue item="FX5B Forward Directional Control" value="0" />
-        <varValue item="FX6B Forward Directional Control" value="0" />
+        <varValue item="FX3 Forward Directional Control" value="1" />
+        <varValue item="FX4 Forward Directional Control" value="1" />
+        <varValue item="FX5 Forward Directional Control" value="0" />
+        <varValue item="FX6 Forward Directional Control" value="0" />
         <varValue item="Headlight F0(f) Reverse Directional Control" value="1" />
         <varValue item="Backup Light F0(r) Reverse Directional Control" value="0" />
-        <varValue item="FX5 Reverse Directional Control" value="1" />
-        <varValue item="FX6 Reverse Directional Control" value="1" />
-        <varValue item="FX5B Reverse Directional Control" value="0" />
-        <varValue item="FX6B Reverse Directional Control" value="0" />
+        <varValue item="FX3 Reverse Directional Control" value="1" />
+        <varValue item="FX4 Reverse Directional Control" value="1" />
+        <varValue item="FX5 Reverse Directional Control" value="0" />
+        <varValue item="FX6 Reverse Directional Control" value="0" />
         <varValue item="Hyperlight Flash Rate (0-15)" value="2" />
         <varValue item="Grade Crossing Hold Time (0-15)" value="4" />
         <varValue item="Brightness 1" value="70" />
         <varValue item="Brightness 2" value="15" />
-        <varValue item="Dimmer" value="255" />
+        <varValue item="Dimmer Level" value="255" />
         <varValue item="Sound Group 3 Option 1" value="0" />
         <varValue item="Advanced Group 1 Option 4" value="0" />
         <varValue item="Advanced Group 1 Option 5" value="0" />
@@ -407,8 +408,8 @@
         <varValue item="Sound Setting 21" value="70" />
         <varValue item="Sound Setting 22" value="150" />
         <varValue item="Sound Setting 23" value="0" />
-        <varValue item="Bell-On Set Point" value="1" />
-        <varValue item="Bell-Off Set Point" value="15" />
+        <varValue item="Auto-Bell-On Set Point" value="1" />
+        <varValue item="Auto-Bell On Time" value="15" />
         <varValue item="Sound Option 13" value="5" />
         <varValue item="Brake Squeal Sensitivity" value="3" />
         <varValue item="Automatic Bell Enable (Analog Mode)" value="0" />
@@ -500,6 +501,34 @@
         <varValue item="Reverse Trim" value="0" />
         <varValue item="User Id #1" value="1" />
         <varValue item="User Id #2" value="0" />
+        <varValue item="CV67 default" value="0" />
+        <varValue item="CV68 default" value="9" />
+        <varValue item="CV69 default" value="18" />
+        <varValue item="CV70 default" value="28" />
+        <varValue item="CV71 default" value="37" />
+        <varValue item="CV72 default" value="47" />
+        <varValue item="CV73 default" value="56" />
+        <varValue item="CV74 default" value="66" />
+        <varValue item="CV75 default" value="75" />
+        <varValue item="CV76 default" value="85" />
+        <varValue item="CV77 default" value="94" />
+        <varValue item="CV78 default" value="103" />
+        <varValue item="CV79 default" value="113" />
+        <varValue item="CV80 default" value="122" />
+        <varValue item="CV81 default" value="132" />
+        <varValue item="CV82 default" value="141" />
+        <varValue item="CV83 default" value="151" />
+        <varValue item="CV84 default" value="160" />
+        <varValue item="CV85 default" value="170" />
+        <varValue item="CV86 default" value="179" />
+        <varValue item="CV87 default" value="188" />
+        <varValue item="CV88 default" value="198" />
+        <varValue item="CV89 default" value="207" />
+        <varValue item="CV90 default" value="217" />
+        <varValue item="CV91 default" value="226" />
+        <varValue item="CV92 default" value="236" />
+        <varValue item="CV93 default" value="245" />
+        <varValue item="CV94 default" value="255" />
         <varValue item="Analog Mode Function Status - F13" value="0" />
         <varValue item="Analog Mode Function Status - F14" value="0" />
         <varValue item="Analog Mode Function Status - F15" value="0" />
@@ -694,10 +723,10 @@
         <varValue item="Sound Group 3 Option 8" value="99" />
         <varValue item="Headlight F0(f) Effect Selection" value="19" />
         <varValue item="Backup Light F0(r) Effect Selection" value="19" />
-        <varValue item="FX5 Effect Selection" value="20" />
-        <varValue item="FX6 Effect Selection" value="20" />
-        <varValue item="FX5B Effect Selection" value="15" />
-        <varValue item="FX6B Effect Selection" value="15" />
+        <varValue item="FX3 Effect Selection" value="20" />
+        <varValue item="FX4 Effect Selection" value="20" />
+        <varValue item="FX5 Effect Selection" value="15" />
+        <varValue item="FX6 Effect Selection" value="15" />
       </decoderDef>
       <CVvalue name="33" value="0" />
       <CVvalue name="34" value="0" />
