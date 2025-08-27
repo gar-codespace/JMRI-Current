@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Thu Jun 12 09:12:18 PDT 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Wed Aug 27 08:23:41 PDT 2025-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -86,14 +86,6 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="fuel oil" loadType="load" />
     </load>
-    <load type="XM">
-      <carLoad name="Break Bulk" loadType="load" />
-      <carLoad name="Empty" loadType="load" />
-      <carLoad name="LCL" loadType="load" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="goods" loadType="load" />
-      <carLoad name="merchandise" loadType="load" />
-    </load>
     <load type="GA">
       <carLoad name="Barrels" loadType="load" />
       <carLoad name="Empty" loadType="empty" />
@@ -102,6 +94,14 @@
       <carLoad name="lumber stack" loadType="load" />
       <carLoad name="machinery" loadType="load" />
     </load>
+    <load type="XM">
+      <carLoad name="Break Bulk" loadType="load" />
+      <carLoad name="Empty" loadType="load" />
+      <carLoad name="LCL" loadType="load" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="goods" loadType="load" />
+      <carLoad name="merchandise" loadType="load" />
+    </load>
   </loads>
   <newKernels />
   <options />
@@ -109,9 +109,9 @@
     <car id="ACL3405" roadName="ACL" roadNumber="3405" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" value="6006" load="LCL" />
     <car id="ACL4177" roadName="ACL" roadNumber="4177" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="1" value="6004" load="Break Bulk" />
     <car id="AT&amp;SF5288" roadName="AT&amp;SF" roadNumber="5288" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="1" value="6008" load="Break Bulk" />
-    <car id="B&amp;A2876" roadName="B&amp;A" roadNumber="2876" type="GA" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/12/2025 09:12:18" selected="false" lastLocationId="1" value="6011" load="Barrels" previousScheduleId="90c1" />
-    <car id="B&amp;O0226" roadName="B&amp;O" roadNumber="0226" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="2" date="06/12/2025 09:12:18" selected="false" lastLocationId="2" value="6003" load="LCL" previousScheduleId="90c2" />
-    <car id="CNJ4885" roadName="CNJ" roadNumber="4885" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="2" date="06/12/2025 09:12:18" selected="false" lastLocationId="2" value="6004" load="LCL" previousScheduleId="90c2" />
+    <car id="B&amp;A2876" roadName="B&amp;A" roadNumber="2876" type="GA" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/12/2025 09:12:18" selected="false" lastLocationId="1" value="6011" load="Barrels" />
+    <car id="B&amp;O0226" roadName="B&amp;O" roadNumber="0226" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="2" date="06/12/2025 09:12:18" selected="false" lastLocationId="2" value="6003" load="LCL" />
+    <car id="CNJ4885" roadName="CNJ" roadNumber="4885" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="2" date="06/12/2025 09:12:18" selected="false" lastLocationId="2" value="6004" load="LCL" />
     <car id="CNJ6475" roadName="CNJ" roadNumber="6475" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" moves="0" date="" selected="false" value="6010" load="LCL" />
     <car id="CNJ6820" roadName="CNJ" roadNumber="6820" type="FM" length="40" weightTons="0" locationId="1" secLocationId="1s1" lastRouteId="1" moves="2" date="06/12/2025 09:12:18" selected="false" lastLocationId="2" value="6001" load="Empty" />
     <car id="CNJ8371" roadName="CNJ" roadNumber="8371" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" value="6015" load="Empty" />
@@ -151,7 +151,7 @@
     <car id="PL4239" roadName="PL" roadNumber="4239" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="2" value="6011" load="LCL" />
     <car id="PL5177" roadName="PL" roadNumber="5177" type="GA" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="1" value="6002" load="Barrels" />
     <car id="PL5316" roadName="PL" roadNumber="5316" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s3" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="2" value="6009" load="LCL" />
-    <car id="PL7441" roadName="PL" roadNumber="7441" type="GA" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/12/2025 09:12:18" selected="false" lastLocationId="1" value="6014" load="Barrels" previousScheduleId="90c1" />
+    <car id="PL7441" roadName="PL" roadNumber="7441" type="GA" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/12/2025 09:12:18" selected="false" lastLocationId="1" value="6014" load="Barrels" />
     <car id="PL9032" roadName="PL" roadNumber="9032" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="1" value="6009" load="Break Bulk" />
     <car id="PL9774" roadName="PL" roadNumber="9774" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s2" lastRouteId="1" moves="2" date="06/12/2025 09:12:18" selected="false" lastLocationId="2" value="6001" load="Break Bulk" />
     <car id="PRR0618" roadName="PRR" roadNumber="0618" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" value="6021" load="Empty" />
