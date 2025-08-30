@@ -90,17 +90,17 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="Script Output" height="244.0" locX="1084.0" locY="974.0" width="339.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="357.0" locX="225.0" locY="538.0" width="1117.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="844.0" locX="50.0" locY="62.0" width="1132.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="50.0" locY="62.0" width="500.0"/>
-        <window xmlns="" class="JMRI System Console" height="1015.0" locX="1659.0" locY="301.0" width="879.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="273.0" locX="0.0" locY="0.0" width="1274.0"/>
-        <window xmlns="" class="PanelPro" height="278.0" locX="2053.0" locY="16.0" width="408.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="679.0" locX="25.0" locY="31.0" width="951.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarLoadEditFrame:Edit Car Loads" height="500.0" locX="100.0" locY="124.0" width="400.0"/>
-        <window xmlns="" class="Script Output:1" height="297.0" locX="25.0" locY="31.0" width="389.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="612.0" locX="75.0" locY="93.0" width="500.0"/>
+        <window xmlns="" class="Script Output" height="244.0" locX="1084.0" locY="974.0" width="339.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="50.0" locY="62.0" width="500.0"/>
+        <window xmlns="" class="Script Output:1" height="297.0" locX="25.0" locY="31.0" width="389.0"/>
+        <window xmlns="" class="PanelPro" height="278.0" locX="2053.0" locY="16.0" width="408.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="844.0" locX="50.0" locY="62.0" width="1132.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarLoadEditFrame:Edit Car Loads" height="500.0" locX="100.0" locY="124.0" width="400.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="357.0" locX="225.0" locY="538.0" width="1117.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="679.0" locX="25.0" locY="31.0" width="951.0"/>
+        <window xmlns="" class="JMRI System Console" height="1015.0" locX="1659.0" locY="301.0" width="879.0"/>
     </windowDetails>
 </auxiliary-configuration>
