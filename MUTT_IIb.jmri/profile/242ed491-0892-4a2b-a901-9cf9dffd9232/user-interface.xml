@@ -37,8 +37,30 @@
                 <column hidden="false" name="Location" order="10" width="190"/>
             </columns>
             <sortOrder>
+                <sortKey column="10" sortOrder="ASCENDING"/>
                 <sortKey column="3" sortOrder="ASCENDING"/>
             </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame:table">
+            <columns>
+                <column hidden="false" name="Delete" order="16" width="70"/>
+                <column hidden="false" name="Destination" order="8" width="130"/>
+                <column hidden="false" name="Hits" order="12" width="45"/>
+                <column hidden="false" name="Down" order="15" width="70"/>
+                <column hidden="false" name="Road" order="5" width="90"/>
+                <column hidden="true" name="Count" order="11" width="45"/>
+                <column hidden="false" name="Type" order="2" width="90"/>
+                <column hidden="false" name="Random" order="3" width="60"/>
+                <column hidden="false" name="Receive" order="6" width="90"/>
+                <column hidden="false" name="Pick up" order="10" width="90"/>
+                <column hidden="false" name="ID" order="0" width="35"/>
+                <column hidden="false" name="Delivery" order="4" width="90"/>
+                <column hidden="false" name="Ship" order="7" width="90"/>
+                <column hidden="false" name="Up" order="14" width="60"/>
+                <column hidden="false" name="Wait" order="13" width="40"/>
+                <column hidden="false" name="Current" order="1" width="50"/>
+                <column hidden="false" name="Track" order="9" width="130"/>
+            </columns>
         </table>
         <table xmlns="" name="jmri.jmrit.operations.trains.TrainsTableFrame:table">
             <columns>
@@ -92,12 +114,13 @@
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="273.0" locX="0.0" locY="0.0" width="1274.0"/>
         <window xmlns="" class="PanelPro" height="278.0" locX="2053.0" locY="16.0" width="408.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.routes.RoutesTableFrame:Routes" height="534.0" locX="0.0" locY="0.0" width="700.0"/>
         <window xmlns="" class="JMRI System Console" height="1015.0" locX="1659.0" locY="301.0" width="879.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="844.0" locX="50.0" locY="62.0" width="1132.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="844.0" locX="1088.0" locY="170.0" width="1132.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RoutesTableFrame:Routes" height="534.0" locX="0.0" locY="0.0" width="700.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="357.0" locX="225.0" locY="538.0" width="1117.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="50.0" locY="62.0" width="500.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="614.0" locX="75.0" locY="93.0" width="1362.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="679.0" locX="25.0" locY="31.0" width="951.0"/>
         <window xmlns="" class="Script Output:1" height="297.0" locX="25.0" locY="31.0" width="389.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="612.0" locX="75.0" locY="93.0" width="500.0"/>
