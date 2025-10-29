@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Wed Oct 29 07:55:30 PDT 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Wed Oct 29 08:29:13 PDT 2025-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" current="1r17" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="true" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Partial 23/25 cars" TerminationDate="10/29/2025 07:53:50" RequestedCars="25" statusCode="20" oldStatusCode="20" comment="" showTimes="true">
+    <train id="1" name="Basin St Switcher" description="" departHour="00" departMinute="00" departureTrack="2s1" terminationTrack="2s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 2025/10/29 08:29:09" TerminationDate="10/29/2025 08:29:09" RequestedCars="25" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Basin St Switcher" id="1" />
       <types>
