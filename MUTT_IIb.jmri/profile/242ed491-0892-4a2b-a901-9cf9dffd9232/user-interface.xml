@@ -119,7 +119,7 @@
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="jmri.jmrit.operations.routes.RoutesTableFrame:Routes" height="534.0" locX="0.0" locY="0.0" width="700.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="357.0" locX="225.0" locY="538.0" width="1117.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="50.0" locY="62.0" width="500.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="380.0" locY="466.0" width="500.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="614.0" locX="75.0" locY="93.0" width="1362.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Edit Location" height="679.0" locX="25.0" locY="31.0" width="951.0"/>
         <window xmlns="" class="Script Output:1" height="297.0" locX="25.0" locY="31.0" width="389.0"/>
