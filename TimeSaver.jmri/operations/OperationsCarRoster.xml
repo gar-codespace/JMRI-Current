@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Sat Dec 13 14:58:21 PST 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Tue Dec 23 08:46:38 PST 2025-->
   <roads>
     <road name="AT&amp;SF" />
     <road name="B&amp;A" />
@@ -37,12 +37,12 @@
   </owners>
   <loads>
     <defaults empty="E" load="L" />
-    <load type="RHx">
+    <load type="RPF">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
     </load>
-    <load type="RPF">
+    <load type="RHx">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
@@ -57,24 +57,24 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
     </load>
+    <load type="Bd">
+      <carLoad name="Load" loadType="Load" />
+    </load>
     <load type="XP3">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
     </load>
-    <load type="Bd">
-      <carLoad name="Load" loadType="Load" />
-    </load>
   </loads>
   <newKernels />
   <options />
   <cars>
-    <car id="HJH424" roadName="HJH" roadNumber="424" type="RHx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="18" date="12/09/2025 15:04:28" selected="false" value="6002" load="Load" />
-    <car id="NYP&amp;N900" roadName="NYP&amp;N" roadNumber="900" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s5" lastRouteId="1" moves="19" date="12/11/2025 12:11:21" selected="false" value="6001" load="Load" />
+    <car id="HJH424" roadName="HJH" roadNumber="424" type="RHx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s2" lastRouteId="1" moves="19" date="12/23/2025 08:46:38" selected="false" value="6001" load="Load" />
+    <car id="NYP&amp;N900" roadName="NYP&amp;N" roadNumber="900" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="1" moves="20" date="12/23/2025 08:46:38" selected="false" value="6001" load="Load" />
     <car id="P&amp;R16492" roadName="P&amp;R" roadNumber="16492" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="19" date="12/13/2025 14:58:21" selected="false" value="6001" load="Load" />
     <car id="PFE559" roadName="PFE" roadNumber="559" type="RPF" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s4" lastRouteId="1" moves="19" date="12/13/2025 14:58:21" selected="false" value="6001" load="Load" />
-    <car id="PRR5866" roadName="PRR" roadNumber="5866" type="Bd" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s2" lastRouteId="1" moves="5" date="12/13/2025 14:58:21" selected="false" value="6001" load="Load" />
-    <car id="PRR5907" roadName="PRR" roadNumber="5907" type="Bdr" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="15" date="10/23/2025 11:07:01" selected="false" value="6003" outOfService="true" load="Load" />
-    <car id="URTC40028" roadName="URTC" roadNumber="40028" type="RUx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="1" moves="19" date="12/11/2025 12:11:21" selected="false" value="6001" load="Load" />
+    <car id="PRR5866" roadName="PRR" roadNumber="5866" type="Bd" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s7" lastRouteId="1" moves="6" date="12/23/2025 08:46:38" selected="false" value="6001" load="Load" />
+    <car id="PRR5907" roadName="PRR" roadNumber="5907" type="Bdr" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="15" date="10/23/2025 11:07:01" selected="false" value="6002" outOfService="true" load="Load" />
+    <car id="URTC40028" roadName="URTC" roadNumber="40028" type="RUx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="1" moves="19" date="12/11/2025 12:11:21" selected="false" value="6002" load="Load" />
   </cars>
 </operations-config>

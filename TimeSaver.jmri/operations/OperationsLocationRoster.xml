@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Sat Dec 13 14:58:21 PST 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Tue Dec 23 08:46:38 PST 2025-->
   <divisions />
   <locations>
     <location id="1" name="Unreported" ops="1" dir="15" switchList="false" comment="" switchListComment="">
@@ -56,7 +56,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s2" name="Blue" trackType="Spur" dir="15" length="88" moves="35" schedule="Blu" scheduleId="101" itemId="101c6" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s2" name="Blue" trackType="Spur" dir="15" length="88" moves="36" schedule="Blu" scheduleId="101" itemId="101c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
@@ -93,7 +93,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s5" name="Tan" trackType="Spur" dir="15" length="44" moves="30" schedule="Blu" scheduleId="101" itemId="101c5" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s5" name="Tan" trackType="Spur" dir="15" length="44" moves="30" schedule="Blu" scheduleId="101" itemId="101c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
@@ -111,7 +111,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s6" name="Green" trackType="Spur" dir="15" length="88" moves="35" schedule="Blu" scheduleId="101" itemId="101c4" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s6" name="Green" trackType="Spur" dir="15" length="88" moves="36" schedule="Blu" scheduleId="101" itemId="101c5" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
@@ -129,7 +129,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s7" name="Yellow" trackType="Spur" dir="15" length="88" moves="34" schedule="Blu" scheduleId="101" itemId="101c6" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s7" name="Yellow" trackType="Spur" dir="15" length="88" moves="35" schedule="Blu" scheduleId="101" itemId="101c6" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
@@ -161,11 +161,11 @@
     </schedule>
     <schedule id="101" name="Blu" comment="">
       <item id="101c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Bdr" road="" load="Load" ship="Load" comment="" hits="25" />
-      <item id="101c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RHx" road="" load="Load" ship="Load" comment="" hits="32" />
+      <item id="101c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RHx" road="" load="Load" ship="Load" comment="" hits="33" />
       <item id="101c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RPF" road="" load="Load" ship="Load" comment="" hits="31" />
       <item id="101c4" sequenceId="4" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="RUx" road="" load="Load" ship="Load" comment="" hits="34" />
-      <item id="101c5" sequenceId="5" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="72" />
-      <item id="101c6" sequenceId="6" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Bd" road="" load="Load" ship="Load" comment="" hits="10" />
+      <item id="101c5" sequenceId="5" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XP3" road="" load="Load" ship="Load" comment="" hits="73" />
+      <item id="101c6" sequenceId="6" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="Bd" road="" load="Load" ship="Load" comment="" hits="11" />
     </schedule>
     <schedule id="102" name="Pur" comment="">
       <item id="102c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="" road="" load="Load" ship="Load" comment="" hits="0" />
