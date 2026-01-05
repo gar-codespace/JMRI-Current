@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Tue Dec 30 14:03:39 PST 2025-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Mon Jan 05 12:08:06 PST 2026-->
   <roads>
     <road name="AT&amp;SF" />
     <road name="B&amp;A" />
@@ -69,12 +69,12 @@
   <newKernels />
   <options />
   <cars>
-    <car id="HJH424" roadName="HJH" roadNumber="424" type="RHx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="1" moves="20" date="12/30/2025 01:27:00" selected="false" value="6001" load="Load" />
-    <car id="NYP&amp;N900" roadName="NYP&amp;N" roadNumber="900" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s4" lastRouteId="1" moves="21" date="12/30/2025 14:03:39" selected="false" value="6001" load="Load" />
-    <car id="P&amp;R16492" roadName="P&amp;R" roadNumber="16492" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s5" lastRouteId="1" moves="20" date="12/30/2025 01:27:00" selected="false" value="6001" load="Load" />
-    <car id="PFE559" roadName="PFE" roadNumber="559" type="RPF" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="20" date="12/28/2025 10:28:53" selected="false" value="6002" load="Load" />
-    <car id="PRR5866" roadName="PRR" roadNumber="5866" type="Bd" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s2" lastRouteId="1" moves="9" date="12/30/2025 14:03:39" selected="false" value="6001" load="Load" />
-    <car id="PRR5907" roadName="PRR" roadNumber="5907" type="Bdr" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="15" date="10/23/2025 11:07:01" selected="false" value="6003" outOfService="true" load="Load" />
-    <car id="URTC40028" roadName="URTC" roadNumber="40028" type="RUx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="21" date="12/30/2025 14:03:39" selected="false" value="6001" load="Load" />
+    <car id="HJH424" roadName="HJH" roadNumber="424" type="RHx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s2" lastRouteId="1" moves="1" date="01/03/2026 10:01:35" selected="false" value="6001" load="Load" />
+    <car id="NYP&amp;N900" roadName="NYP&amp;N" roadNumber="900" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s5" lastRouteId="1" moves="2" date="01/05/2026 12:08:06" selected="false" value="6001" load="Load" />
+    <car id="P&amp;R16492" roadName="P&amp;R" roadNumber="16492" type="XP3" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s7" lastRouteId="1" moves="1" date="01/03/2026 10:01:35" selected="false" value="6001" load="Load" />
+    <car id="PFE559" roadName="PFE" roadNumber="559" type="RPF" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="01/03/2026 10:01:35" selected="false" value="6001" load="Load" />
+    <car id="PRR5866" roadName="PRR" roadNumber="5866" type="Bd" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="1" moves="2" date="01/05/2026 12:08:06" selected="false" value="6001" load="Load" />
+    <car id="PRR5907" roadName="PRR" roadNumber="5907" type="Bdr" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="0" date="10/23/2025 11:07:01" selected="false" value="6002" outOfService="true" load="Load" />
+    <car id="URTC40028" roadName="URTC" roadNumber="40028" type="RUx" length="40" color="Generic" weightTons="0" locationId="2" secLocationId="2s6" lastRouteId="1" moves="2" date="01/05/2026 12:08:06" selected="false" value="6002" load="Load" />
   </cars>
 </operations-config>
