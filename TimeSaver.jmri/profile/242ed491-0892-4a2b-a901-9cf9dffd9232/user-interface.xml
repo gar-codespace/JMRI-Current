@@ -177,7 +177,7 @@
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarSetFrame:Set Car" height="629.0" locX="0.0" locY="0.0" width="500.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Programming: H10-44 5980" height="1328.0" locX="50.0" locY="62.0" width="1229.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.locomon.LocoMonPane" height="510.0" locX="8.0" locY="31.0" width="2535.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="0.0" locY="0.0" width="516.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarAttributeEditFrame" height="250.0" locX="0.0" locY="0.0" width="400.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="624.0" locX="1251.0" locY="174.0" width="700.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarsSetFrame:Set Car" height="629.0" locX="0.0" locY="0.0" width="500.0"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="25.0" locY="31.0" width="336.0"/>
@@ -191,9 +191,9 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame:1" height="599.0" locX="25.0" locY="31.0" width="779.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="314.0" locX="147.0" locY="34.0" width="1293.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="314.0" locX="13.0" locY="18.0" width="1293.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="692.0" locX="1239.0" locY="582.0" width="556.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarAttributeEditFrame" height="250.0" locX="0.0" locY="0.0" width="400.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="0.0" locY="0.0" width="516.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.tools.LocationsByCarTypeFrame" height="381.0" locX="25.0" locY="31.0" width="325.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.bdl16.BDL16Panel" height="817.0" locX="25.0" locY="31.0" width="614.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="840.0" locX="1094.0" locY="377.0" width="1322.0"/>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Wed Jan 14 14:01:28 PST 2026-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Thu Jan 15 16:17:24 PST 2026-->
   <options>
     <trainOptions buildMessages="false" buildReport="false" printPreview="false" openFile="false" runFile="false" trainAction="Terminate" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="3 Cars" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 2026/01/14 14:01:28" TerminationDate="01/14/2026 14:01:28" RequestedCars="3" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="3 Cars" description="" departHour="03" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Terminated 2026/01/15 16:17:24" TerminationDate="01/15/2026 16:17:24" RequestedCars="3" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="3 Cars" id="1" />
       <types>
@@ -58,13 +58,13 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="" />
-    <schedule id="2" name="Monday" trainIds="" />
-    <schedule id="3" name="Tuesday" trainIds="" />
-    <schedule id="4" name="Wednesday" trainIds="" />
-    <schedule id="5" name="Thursday" trainIds="" />
-    <schedule id="6" name="Friday" trainIds="" />
-    <schedule id="7" name="Saturday" trainIds="" />
+    <schedule id="1" name="Sunday" trainIds="," />
+    <schedule id="2" name="Monday" trainIds="," />
+    <schedule id="3" name="Tuesday" trainIds="," />
+    <schedule id="4" name="Wednesday" trainIds="," />
+    <schedule id="5" name="Thursday" trainIds="," />
+    <schedule id="6" name="Friday" trainIds="," />
+    <schedule id="7" name="Saturday" trainIds="," />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />
