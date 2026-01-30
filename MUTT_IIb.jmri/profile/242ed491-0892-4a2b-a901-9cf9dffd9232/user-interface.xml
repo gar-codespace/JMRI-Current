@@ -105,9 +105,7 @@
                 <column hidden="false" name="Current" order="15" width="120"/>
                 <column hidden="false" name="Route" order="12" width="120"/>
             </columns>
-            <sortOrder>
-                <sortKey column="2" sortOrder="DESCENDING"/>
-            </sortOrder>
+            <sortOrder/>
         </table>
         <table xmlns="" name="jmri.jmrit.operations.locations.LocationsTableFrame:Locations:table">
             <columns>
