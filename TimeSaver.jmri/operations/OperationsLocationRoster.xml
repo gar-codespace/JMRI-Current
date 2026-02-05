@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Mon Jan 26 09:10:28 PST 2026-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Thu Feb 05 08:33:42 PST 2026-->
   <divisions />
   <locations>
     <location id="1" name="Unreported" ops="1" dir="15" switchList="false" comment="" switchListComment="">
@@ -93,7 +93,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s5" name="Tan" trackType="Spur" dir="15" length="44" moves="39" schedule="Blu" scheduleId="101" itemId="101c5" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s5" name="Buff" trackType="Spur" dir="15" length="44" moves="39" schedule="Blu" scheduleId="101" itemId="101c5" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
@@ -111,7 +111,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s6" name="Green" trackType="Spur" dir="15" length="88" moves="45" schedule="Blu" scheduleId="101" itemId="101c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s6" name="Olive" trackType="Spur" dir="15" length="88" moves="45" schedule="Blu" scheduleId="101" itemId="101c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
@@ -129,7 +129,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s7" name="Yellow" trackType="Spur" dir="15" length="88" moves="44" schedule="Blu" scheduleId="101" itemId="101c6" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s7" name="Ochre" trackType="Spur" dir="15" length="88" moves="44" schedule="Blu" scheduleId="101" itemId="101c6" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="Bd" />
           <carType name="Bdr" />
