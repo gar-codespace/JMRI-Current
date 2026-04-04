@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.10+Rca461bd266 on Sat Apr 04 08:50:32 PDT 2026-->
+  <!--Written by JMRI version 5.10+Rca461bd266 on Sat Apr 04 09:14:33 PDT 2026-->
   <roads>
     <road name="AT&amp;SF" />
     <road name="B&amp;A" />
@@ -37,12 +37,12 @@
   </owners>
   <loads>
     <defaults empty="E" load="L" />
-    <load type="RPF">
+    <load type="RHx">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
     </load>
-    <load type="RHx">
+    <load type="RPF">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
@@ -57,13 +57,13 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
     </load>
-    <load type="Bd">
-      <carLoad name="Load" loadType="Load" />
-    </load>
     <load type="XP3">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
       <carLoad name="load" loadType="load" />
+    </load>
+    <load type="Bd">
+      <carLoad name="Load" loadType="Load" />
     </load>
   </loads>
   <newKernels />
