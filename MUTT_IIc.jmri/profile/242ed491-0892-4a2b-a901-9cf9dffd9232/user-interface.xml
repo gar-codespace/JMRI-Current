@@ -159,7 +159,7 @@
         <window xmlns="" class="jmri.jmrit.operations.locations.SpurEditFrame:Add Spur Track" height="600.0" locX="380.0" locY="466.0" width="500.0"/>
         <window xmlns="" class="PanelPro" height="278.0" locX="2053.0" locY="16.0" width="408.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="1102.0" locX="886.0" locY="265.0" width="1132.0"/>
-        <window xmlns="" class="JMRI System Console" height="1015.0" locX="1659.0" locY="301.0" width="879.0"/>
+        <window xmlns="" class="JMRI System Console" height="1023.0" locX="1659.0" locY="293.0" width="879.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarLoadEditFrame:Edit Car Loads" height="500.0" locX="100.0" locY="124.0" width="400.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="614.0" locX="75.0" locY="93.0" width="1362.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
